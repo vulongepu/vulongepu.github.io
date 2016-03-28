@@ -42,7 +42,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-a{
+a:hover{
 	text-decoration: none;
 }
 /*heaer*/
@@ -85,7 +85,7 @@ a{
 	font-size: 78%;
 }
 .menu-row{
-	width: 1014px;
+	max-width: 1014px;
 	margin:auto;
 }
 .navbar-nav li a{
@@ -156,6 +156,7 @@ a{
 .list-new-product p{
 	font-size: 13px;
 	font-weight: bold;
+	margin-top:13px;
 }
 .buil-product{
 	margin-bottom: 30px;
@@ -215,59 +216,30 @@ a{
 	margin-bottom: 15px;
 }
 /*carousel*/
-/*.project-carousel{
-	border: 1px solid red;
-	overflow: hidden;
-}*/
-.carousel {
-    margin-bottom: 0;
-    padding: 0 40px 30px 40px;
-}
-/* The controlsy */
-.carousel-control {
-	left: -1.5%;
-	height: 1px;
-	width: 1px;
-	background: none;
-	/* border: 4px solid #FFFFFF; */
-	border-radius: 23px 23px 23px 23px;
-	margin-top: 6%;
-}
-.carousel-control.right {
-	right: 1.5%;
-}
-/* The indicators */
-.carousel-indicators {
-	right: 50%;
-	top: auto;
-	bottom: -10px;
-	margin-right: -19px;
-}
-/* The colour of the indicators */
-.carousel-indicators li {
-	background: #cecece;
-}
-.carousel-indicators .active {
-background: #428bca;
-}
-.thumbnail{
-	border: none;
-}
-.thumbnail img{
-	border: 1px solid cfcfcf;
-	padding:3px;
-	box-shadow: 1px 3px 2px #808080;
-	margin-bottom: 8px;
-}
-.left.carousel-control.right-product {
-	margin: 4% 1%;
-}
-.left.carousel-control.left-product {
-	margin: 4% 1%;
-}
-.right.carousel-control.left-product {
-	margin: 4% 1%;
-}
+#owl-demo .item{
+        /*background: #42bdc2;*/
+        padding: 30px 0px;
+        margin: 5px;
+        color: #FFF;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        text-align: center;
+    }
+ #owl-demo .item h1{
+    margin-top: 10px;
+    color: blue;
+ } 
+ #owl-demo1 .item{
+        /*background: #42bdc2;*/
+        /*padding: 30px 0px;*/
+        margin: 5px;
+        color: #FFF;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        text-align: center;
+    }
 .title-strategy{
 height: 30px; 
 line-height: 30px;  
@@ -290,11 +262,11 @@ font-weight: bold;
 	padding:0;
 }
 .full {
-    width: 100%;	
+    max-width: 100%;	
 }
 .gap {
 	height: 30px;
-	width: 100%;
+	max-width: 100%;
 	clear: both;
 	discaret-right: block;
 }
@@ -303,7 +275,7 @@ font-weight: bold;
 	height: auto;
 	padding-bottom: 30px;
 	position: relative;
-	width: 100%;
+	max-width: 100%;
 	border-top: 1px solid #DDDDDD;
 	padding-top: 50px;
 }
@@ -355,7 +327,7 @@ font-weight: bold;
 	float: left;
 	height: 30px;
 	clear: both;
-	width: 100%;
+	max-width: 100%;
 }
 .newsletter-box .btn {
 	border: medium none;
@@ -367,7 +339,7 @@ font-weight: bold;
 	discaret-right: inline-block;
 	height: 40px;
 	padding: 0;
-	width: 100%;
+	max-width: 100%;
 	color: #fff;
 }
 .newsletter-box {
@@ -487,4 +459,93 @@ font-weight: bold;
 .buil-product h4{
   font-weight: bold;
   color: #207da8;
+}
+
+
+/*carosel*/
+.list-duan{
+	position: relative;
+}
+.customNavigation1{
+	position: absolute;
+	top: 46%;
+	width: 100%;
+}
+.btn.next {
+	position: absolute;
+	right: 0;
+	/*background: url(../images/icon-next-02.png) no-repeat;*/
+}
+.list-logo{
+	position: relative;
+}
+.customNavigation{
+	position: absolute;
+	top: 27%;
+	width: 100%;
+}
+.btn.next1 {
+	position: absolute;
+	right: 0;
+	/*background: url(../images/icon-next-02.png) no-repeat;*/
+}
+
+.owl-pagination {
+	display: none;
+}
+/*slider*/
+.bx-wrapper .bx-prev {
+	left: 10px;
+	background: url(../images/controls.png) no-repeat 0 -32px;
+}
+.bx-wrapper .bx-next {
+	right: 10px;
+	background: url(../images/controls.png) no-repeat -43px -32px;
+}
+.owl-item{
+	width: 10%;
+}
+.list-duan{
+	position: relative;
+}
+.btn.prev {
+	position: absolute;
+	left: -4.5%;
+}
+.btn.next {
+	position: absolute;
+	right: -4.5%;
+}
+.list-logo{
+	position: relative;
+}
+.btn.prev1 {
+	position: absolute;
+	left: -4.5%;
+	top:24%;
+}
+.btn.next1 {
+	position: absolute;
+	right: -4.5%;
+	top:24%;
+}
+.social img{
+	margin-bottom: 30px;
+}
+/*slider*/
+.bxslider{
+	position: relative;
+}
+.bxslider p{
+	position: absolute;
+    /*top:50%;*/
+    bottom: 0;
+	width: 100%;
+	padding: 20px 10px;
+	text-align: center;
+	text-transform: uppercase;
+	color: white;
+	font-weight: 300;
+	background: url(../images/bg-tit.png);
+	/*font-size: 80%;*/
 }
