@@ -1,0 +1,328 @@
+
+/*
+Free Bootstrap Themes : vulongepu@gmail.com
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* ==== Google font ==== */
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,700,900);
+@import url('http://fonts.googleapis.com/css?family=Ek+Mukta:400,600,700');
+
+/* ---------------------------------------------------------------------------- */
+/* ------------------------------------Html-Body------------------------------- */
+/* ---------------------------------------------------------------------------- */
+body {font-family: 'Ek Mukta', sans-serif;color: #666;background-color: #fff;font-size: 16px;line-height: 1.6em;font-weight: 400;}
+html, body {width:100%; padding:0; margin:0;}
+
+/* ---------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------- */
+html { -webkit-text-size-adjust: none;}
+.video embed,.video object,.video iframe { width: 100%;  height: auto;}
+img{max-width:100%;	height: auto;width: auto\9; /* ie8 */}
+
+h1 {font-size: 38px;}
+h2 {font-size: 36px;}
+h3 {font-size: 32px;}
+h4 {font-size: 28px;}
+h5 {font-size: 24px;}
+h6 {font-size: 20px;}
+
+h1,h2,h3,h4,h5,h6 {font-family: 'Roboto', sans-serif;font-weight: 600;color: #111;}
+
+p {margin: 0 0 20px;}
+
+a {
+   color: #DE5781;
+   -webkit-transition: all .2s ease-in-out;
+   -moz-transition: all .2s ease-in-out;
+   transition: all .2s ease-in-out;
+}
+
+a:hover,
+a:focus {text-decoration: none;}
+
+.center{text-align: center; margin: 0 auto;}
+.f-right{float: right;}
+.f-left{float: left;}
+.t-right{text-align: right;}
+.t-left{text-align: left;}
+.post{}
+.post:after, .post:before, article:after, article:before, section:after, section:before{clear: both; content: '\0020'; display: block; visibility: hidden; width: 0; height: 0;}
+
+.clear{content: "\0020"; display: block; height: 0; clear: both; visibility: hidden; }
+.clearfix:after, .clearfix:before{clear: both; content: '\0020'; display: block; visibility: hidden; width: 0; height: 0;}
+ 
+
+/* ---------------------------------------------------------------------------- */
+/* ----------------------------------Over////-------------------------------- */
+/* ---------------------------------------------------------------------------- */
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.fa{
+	margin-right: 8px;
+}
+
+/* ---------------------------------------------------------------------------- */
+/* ----------------------------------Header////-------------------------------- */
+/* ---------------------------------------------------------------------------- */
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+	color: #dd127b;
+	background-color: #03a9f4;
+}
+
+.menu-top{
+	max-width: 100%;
+	height: 50px;
+	background: #dd127b;
+	overflow: hidden;
+}
+.contact li{
+	float: left;
+	line-height: 50px;
+	padding-left: 10px;
+}
+.contact a{
+	color: white;
+}
+.contact-right{
+	float: right;
+}
+.navbar {
+	min-height: 90px;
+	border-radius: 0;
+}
+.navbar-default {
+	background-color: #fff;
+}
+.navbar-nav > li > a {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.navbar-toggle {
+	margin-top: 26px;
+}
+/* CONTENT */
+
+/* ---------------------------------------------------------------------------- */
+/* -------------------------------------TITLE---------------------------------- */
+/* ---------------------------------------------------------------------------- */
+.title{
+	margin-bottom: 35px;
+	margin-top: 50px;
+}
+.title span{
+	font-size: 30px;
+	text-transform: uppercase;
+}
+.title p{
+	color: #dd127b;
+	font-size: 18px;
+}
+.title span:after, .title span:before{
+	content: ":::";
+	color: blue;
+}
+/* ---------------------------------------------------------------------------- */
+/* ---------------------------------Product-------------------------------- */
+/* ---------------------------------------------------------------------------- */
+.product{
+	height: 300px;
+	border: 5px solid #dd127b;
+	position: relative;
+	margin-bottom: 15px;
+	margin-bottom: 50px;
+}
+.bot-product{
+	width: 100%;
+	height: 40%;
+	position: absolute;
+	background: url(../images/bg-product.png);
+	bottom: 0;
+	color: white;
+}
+.bot-product p {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 140%;
+	line-height: 106px;
+}
+.img-product-1{
+	background: url(../images/chair.jpg);
+	background-size: 100% 100%;
+}
+.img-product-2{
+	background: url(../images/xehoa.jpg);
+	background-size: 100% 100%;
+}
+.img-product-3{
+	background: url(../images/oka.jpg);
+	background-size: 100% 100%;
+}
+
+/* ---------------------------------------------------------------------------- */
+/* ---------------------------------About-------------------------------- */
+/* ---------------------------------------------------------------------------- */
+.about{
+	max-width: 100%;
+	height: 500px;
+	background-size: 100%;
+	background: url(../images/le-hoi-cuoi.png) ;
+	position: relative;
+	margin-bottom: 30px;
+	/*background-attachment: fixed;*/
+	background-repeat: no-repeat;
+}
+.about img{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	display: none;
+}
+/*.about:hover img{
+	display: block;
+}*/
+.about span{
+	color: red;
+	font-weight: 500;
+	font-size: 50px;
+	position: relative;
+	top:30%;
+}
+.about p{
+	color: red;
+	font-weight: 500;
+	font-size: 50px;
+	position: relative;
+	top:30%;
+	margin-top: 30px;
+}
+/*.about:hover p{
+	color: white;
+}
+.about:hover span{
+	color: white;
+}*/
+.about .fa-heart{
+	font-size: 30px;
+	color: white;
+}
+/* ---------------------------------------------------------------------------- */
+/* ------------------------------------List---------------------------------- */
+/* ---------------------------------------------------------------------------- */
+.list-1{
+	border-radius: 50%;
+}
+.list-1 .thumbnail{
+	border: none;
+}
+
+.list-1 img{
+	border-radius: 50%;
+}
+.list-2 p{
+	padding:10px 30px;
+	background-color: #03a9f4;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.list-2 a{
+	color: white;
+}
+.list-2{
+	margin-bottom: 100px;
+}
+/* ---------------------------------------------------------------------------- */
+/* -------------------------------------Footer-------------------------------- */
+/* ---------------------------------------------------------------------------- */
+.footer-contact{
+	 background: #252525;
+	 height: 300px;
+}
+.lienhe{
+	margin-top: -50px;
+	margin-bottom: 56px;
+}
+.bando{
+	margin-top: -50px;
+	height: 264px;
+}
+/* ---------------------------------------------------------------------------- */
+/* ------------------------------------Footer-bot---------------------------------- */
+/* ---------------------------------------------------------------------------- */
+.footer-bot{
+	/*height: 40px;*/
+	background: #dd127b;
+	line-height: 40px;
+	text-transform: uppercase;
+	padding:10px 0;
+	color: white;
+}
+.footer-bot a{
+	color: blue;
+}
+/* ---------------------------------------------------------------------------- */
+/* ------------------------------------Calendar---------------------------------- */
+/* ---------------------------------------------------------------------------- */
+.calendar{
+	margin-bottom: 80px;
+}
+.thang{
+	width:100%;
+	height: 300px;
+}
+.ngaythang {
+	text-align: center;
+}
+.ngaythang:hover {
+	background-color: #FDFDF0;
+	box-shadow: 3px 6px 2px #888888;
+}
+.am {
+	color: red;
+	padding-right: 8%;
+}
