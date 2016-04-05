@@ -1,10 +1,10 @@
 /* Dành cho điện thoại */
-@media all and (min-width: 320px) {
+@media all and (min-width: 319px) {
 	.title-product{
 		padding-left: 23px;
 	}
-   .col-xs-1,.col-xs-2,.col-xs-3,.col-xs-4,.col-xs-5,.col-xs-6,.col-xs-7,.col-xs-8,.col-xs-9,.col-xs-10,.col-xs-11,.col-xs-12{
-	padding:0px 24px 24px 24px;
+	.padding-24{
+	padding:0px 12px 24px 12px;
 }
 	.list-duan{
 	/*max-width: 930px;*/
@@ -40,6 +40,25 @@
 	.buil-product {
 	max-height: 79px;
 }
+.btn.prev {
+	position: absolute;
+	top: 36%;
+	left: -4.5%;
+}
+.btn.next {
+	position: absolute;
+	top: 36%;
+	right: -4.5%;
+}
+.btn.prev1 {
+	top: 31%;
+	left: -4.5%;
+}
+.btn.next1 {
+	top: 31%;
+	right: -4.5%;
+}
+
 }
 /* Dành cho máy tính bảng chiều dọc */
 @media all and (min-width: 700px) {
@@ -60,7 +79,7 @@
 /* Dành cho màn hình desktop */
 @media all and (min-width: 1270px) {
 .list-new-product{min-height: 184px;}
-.row{max-width: 1014px; margin: auto;background: white;}
+.container{max-width: 1014px; margin: auto;background: white;}
 .buil-product{max-height: 124px;}
 .list-duan{
 	/*max-width: 930px;*/
@@ -90,10 +109,25 @@
 	top: 24%;
 	right: -4.5%;
 }
-.col-xs-1,.col-xs-2,.col-xs-3,.col-xs-4,.col-xs-5,.col-xs-6,.col-xs-7,.col-xs-8,.col-xs-9,.col-xs-10,.col-xs-11,.col-xs-12{
+.padding-24{
 	padding:0px 10px 10px 10px;
 }
 .tbl{
 	padding-left: 4%;
+}
+}
+@media (min-width: 1024px) and (max-width: 1279px) {
+	.list-new-product{min-height: 170px;}
+}
+@media (min-width: 800px) and (max-width: 1023px) {
+	.list-new-product{min-height: 324px;}
+}
+
+@media all and (max-width: 323px) {
+	.slogan{
+	max-width: 233px;
+}
+.logo{
+	max-width: 45px;
 }
 }
