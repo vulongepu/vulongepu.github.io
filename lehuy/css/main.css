@@ -599,7 +599,7 @@ body.sub-page .logo {margin: 110px 0 80px;background: url(../images/bg.jpg) fixe
 /* ------------------------------------Footer---------------------------------- */
 /* ---------------------------------------------------------------------------- */
 footer {
-    position: relative;
+    position: absolute;
     z-index: 2000;
     right: 0;
     bottom: 0;
