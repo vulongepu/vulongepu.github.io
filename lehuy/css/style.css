@@ -2223,3 +2223,6 @@ img{width:100%}
     -ms-transform: rotate(-90deg)translate(40px,10px);
     transform: rotate(-90deg) translate(40px,10px);
 }
+#map2 {
+    border: 0px !important;
+}
