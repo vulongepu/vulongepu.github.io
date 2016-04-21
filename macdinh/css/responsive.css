@@ -59,3 +59,7 @@
 @media screen and (max-width: 750px) {
 	#bottom_footer .social_links{width: 100%;margin: 0 auto !important;}
 }
+/* FOOTER BOTTOM */
+@media screen and (max-width: 600px) {
+	body{margin:0 10px;}
+}
