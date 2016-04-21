@@ -1,0 +1,61 @@
+@media all and (min-width: 320px) and (max-width: 780px) {...}
+/* Default styles first then media queries */
+@media screen and (min-width: 400px)  {...}
+@media screen and (min-width: 600px)  {...}
+@media screen and (min-width: 1000px) {...}
+@media screen and (min-width: 1400px) {...}
+/* Menu */
+@media screen and (max-width: 620px) {
+	.text-policy,.hotline{
+		display: none;
+	}
+}
+@media screen and (max-width: 1201px) {
+	.menu .navbar-right{
+		display: none;
+	}
+}
+@media screen and (max-width: 620px) {
+	.hien{display: none;}
+	.an{display: block;}
+}
+@media screen and (min-width: 620px) {
+	.an{display: none;}
+	.hien{display: block;}
+}
+@media screen and (max-width: 620px) {
+	.right-slider p {
+  padding: 5px !important;
+  font-size: 16px
+}
+}
+@media screen and (max-width: 620px) {
+	.left-slider p {
+  padding: 5px !important;
+  font-size: 16px
+}
+}
+/* BILL */
+@media screen and (max-width: 768px) {
+	.bill{
+       display: none;
+	}
+}
+/* LOGO-PRODUCT */
+@media screen and (max-width: 768px) {
+	.logo-product li {width: 50%;}
+    .logo-product li img {width: 80%;height: 70%;padding-top:10px;}
+}
+/* EMAIL */
+@media screen and (max-width: 768px) {
+	.newsletter-heading {
+  width: 100%;
+}
+.newsletter-input {
+  width: 100%;
+}
+}
+/* FOOTER BOTTOM */
+@media screen and (max-width: 750px) {
+	#bottom_footer .social_links{width: 100%;margin: 0 auto !important;}
+}
