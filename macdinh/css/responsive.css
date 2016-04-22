@@ -63,3 +63,12 @@
 @media screen and (max-width: 600px) {
 	body{margin:0 10px;}
 }
+/* FOOTER BOTTOM */
+@media screen and (max-width: 1000px) {
+	.colum-left{
+		display: none;
+	}
+	.colum-right{
+		width: 100%;
+	}
+}
