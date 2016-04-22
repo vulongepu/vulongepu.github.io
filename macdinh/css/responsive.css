@@ -72,3 +72,34 @@
 		width: 100%;
 	}
 }
+/* RIGHT-T*/
+@media screen and (max-width: 768px) {
+	.right-t{
+		width: 100%;
+	}
+}
+
+/* carousel-sele*/
+@media screen and (max-width: 768px) {
+	.carousel-sele{
+		display: none;
+	}
+}
+
+
+@media screen and (max-width: 535px) {
+	.product-features.product-page li {
+  width: 50%;
+}
+}
+@media screen and (max-width: 375px) {
+	.product-features.product-page li {
+      height: 100px;
+}
+}
+
+@media screen and (max-width: 550px) {
+	.tabbable-line > .nav-tabs > li > a {
+	font-size: 90%;
+}
+}

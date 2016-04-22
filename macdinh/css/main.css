@@ -775,3 +775,293 @@ color: #2E2E2E;
 .caption{
     height: 100px;
 }
+/* ---------------------------------------------------------------------------- */
+/* -------------------------------------XOAAAAAA-------------------------------- */
+/* ---------------------------------------------------------------------------- */
+.hide-bullets {
+    list-style:none;
+    margin-left: -40px;
+    margin-top:20px;
+}
+
+.thumbnail {
+    padding: 0;
+}
+
+.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+    width: 100%;
+}
+/* ---------------------------------------------------------------------------- */
+/* ----------------------------------product-features----------------------------------- */
+/* ---------------------------------------------------------------------------- */
+.product-features.product-page {
+  padding: 20px 0px;
+  padding-right: 15px;
+  margin-top: 0px;
+}
+.product-features {
+  margin: 0px;
+  padding: 0;
+  margin-top: 20px;
+  list-style: none;
+  background: #fff;
+  display: inline-block;
+}
+.product-features.product-page li {
+  width: 33.33%;
+}
+.product-features li {
+  width: 100%;
+  float: left;
+  margin-bottom: 0px;
+  font-size: 0;
+  padding: 15px 0;
+  border-bottom: 1px solid #eee;
+  border-top: 1px solid #eee;
+  margin-top: -1px;
+}
+#content img {
+  max-width: 100%;
+  height: auto !important;
+}
+.product-features li img {
+  float: left;
+  margin-right: 10px;
+  width: 40px;
+}
+img {
+  vertical-align: middle;
+}
+.guide_buy {
+  background: #f5f5f5;
+  padding: 20px;
+  margin: 0;
+  list-style: none;
+}
+.guide_buy h2 {
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-family: OpenSans, Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #000;
+  padding-bottom: 10px;
+}
+.guide_buy li a {
+  color: #000;
+}
+.guide_buy li {
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+.product-features.product-page li p {
+  padding-top: 3px;
+  font-size: 13px;
+  line-height: 1.8;
+  text-transform: uppercase;
+}
+/* ---------------------------------------------------------------------------- */
+/* ----------------------------------product-features----------------------------------- */
+/* ---------------------------------------------------------------------------- */
+/***
+Bootstrap Line Tabs by @keenthemes
+A component of Metronic Theme - #1 Selling Bootstrap 3 Admin Theme in Themeforest: http://j.mp/metronictheme
+Licensed under MIT
+***/
+
+/* Tabs panel */
+.tabbable-panel {
+  border:1px solid #eee;
+  padding: 10px;
+}
+
+/* Default mode */
+.tabbable-line > .nav-tabs {
+  border: none;
+  margin: 0px;
+}
+.tabbable-line > .nav-tabs > li {
+  margin-right: 2px;
+}
+.tabbable-line > .nav-tabs > li > a {
+  border: 0;
+  margin-right: 0;
+  color: #737373;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 18px;
+}
+.tabbable-line > .nav-tabs > li > a > i {
+  color: #a6a6a6;
+}
+.tabbable-line > .nav-tabs > li.open, .tabbable-line > .nav-tabs > li:hover {
+  border-bottom: 4px solid #fbcdcf;
+}
+.tabbable-line > .nav-tabs > li.open > a, .tabbable-line > .nav-tabs > li:hover > a {
+  border: 0;
+  background: none !important;
+  color: #333333;
+}
+.tabbable-line > .nav-tabs > li.open > a > i, .tabbable-line > .nav-tabs > li:hover > a > i {
+  color: #a6a6a6;
+}
+.tabbable-line > .nav-tabs > li.open .dropdown-menu, .tabbable-line > .nav-tabs > li:hover .dropdown-menu {
+  margin-top: 0px;
+}
+.tabbable-line > .nav-tabs > li.active {
+  border-bottom: 4px solid #f3565d;
+  position: relative;
+}
+.tabbable-line > .nav-tabs > li.active > a {
+  border: 0;
+  color: #333333;
+}
+.tabbable-line > .nav-tabs > li.active > a > i {
+  color: #404040;
+}
+.tabbable-line > .tab-content {
+  margin-top: -3px;
+  background-color: #fff;
+  border: 0;
+  border-top: 1px solid #eee;
+  padding: 15px 0;
+}
+.portlet .tabbable-line > .tab-content {
+  padding-bottom: 0;
+}
+
+/* Below tabs mode */
+
+.tabbable-line.tabs-below > .nav-tabs > li {
+  border-top: 4px solid transparent;
+}
+.tabbable-line.tabs-below > .nav-tabs > li > a {
+  margin-top: 0;
+}
+.tabbable-line.tabs-below > .nav-tabs > li:hover {
+  border-bottom: 0;
+  border-top: 4px solid #fbcdcf;
+}
+.tabbable-line.tabs-below > .nav-tabs > li.active {
+  margin-bottom: -2px;
+  border-bottom: 0;
+  border-top: 4px solid #f3565d;
+}
+.tabbable-line.tabs-below > .tab-content {
+  margin-top: -10px;
+  border-top: 0;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 15px;
+}
+.tab-content h2 {
+  font-weight: bold;
+  font-size: 15px;
+}
+.attribute {
+  border-collapse: collapse;
+  width: 100%;
+  border-top: 1px solid #DDDDDD;
+  border-left: 1px solid #DDDDDD;
+  margin-bottom: 20px;
+}
+.title-it{
+  width: 100%;
+  background: #f5f5f5;
+  padding:10px 10px;
+  font-weight: bold;
+}
+.content {
+  padding: 10px;
+  overflow: auto;
+  margin-bottom: 20px;
+  border: 1px solid #EEEEEE;
+}
+.aaa{
+  /*display: none;*/
+}
+/* ---------------------------------------------------------------------------- */
+/* ----------------------------------xemsanpham----------------------------------- */
+/* ---------------------------------------------------------------------------- */
+.xemsanpham{
+  width: 18%;
+  float: left;
+  margin-left: 18px;
+}
+.title-sanpham{
+  margin-bottom: 50px;
+  border-bottom: 3px solid #000;
+  height: 45px;
+}
+.title-sanpham span{
+  font-size: 18px;
+  background: red;
+  width: 100%;
+  /*padding: 20px 20px;*/
+  height: 50px;
+  text-transform: uppercase;
+padding: 9px 10px;
+line-height: 45px;
+
+}
+#sanphammoi{
+  border: 1px solid #ececec;
+  margin-top: 30px;
+}
+/* ---------------------------------------------------------------------------- */
+/* ----------------------------------right----------------------------------- */
+/* ---------------------------------------------------------------------------- */
+.right-t{
+  width:33.2%;
+  min-height: 600px;
+  /*border: 1px solid red;*/
+  text-align: center;
+  padding:18px;
+  box-shadow: 0px 5px 5px #D2D2D2;
+  float: right;
+  margin-bottom: 20px;
+}
+.right-t li{
+  margin-bottom: 20px;
+}
+.right-t span{
+  color: #DD242B;
+  font-size: 30px;
+  font-weight: 700;
+}
+.right-t h2{
+  color: #333333;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.right-t li:nth-child(4){
+  width: 100%;
+  height: 50px;
+  background: #C10007;
+  border-bottom: 4px solid #904043;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 50px;
+  font-weight: 700;
+  font-size:30px;
+}
+.right-t li:nth-child(4) > a{
+  color: white;
+}
+.right-t li:nth-child(4):hover{
+  background: red;
+}
+.right-t li:last-child{
+  font-size: 16px;
+  color: #333333;
+}
+.right-t li:last-child span{
+  font-size: 20px;
+  font-weight: 700;
+}
+.carousel-sele{
+  border: none;
+}
+.right-t img{
+  width: 100%;
+}
