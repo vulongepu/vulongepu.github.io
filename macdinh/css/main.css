@@ -1115,3 +1115,6 @@ a.button, input.button {
   -moz-box-shadow: 0px 2px 2px #DDDDDD;
   box-shadow: 0px 2px 2px #DDDDDD;
 }
+.dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover {
+  background-color: red;
+}
