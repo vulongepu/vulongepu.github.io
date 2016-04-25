@@ -75,7 +75,7 @@ header{
   display: inline-block;
   float: left;
   background: #c00006;
-  line-height: 60px;
+  line-height: 47px;
   text-align: center;
   margin-right: 10px;
 }
@@ -1064,4 +1064,54 @@ line-height: 45px;
 }
 .right-t img{
   width: 100%;
+}
+/************************************************************
+*************************TRA HANG HTML******************************
+*************************************************************/
+.breadcrumb {
+  padding: 8px 15px;
+  margin-bottom: 20px;
+  list-style: none;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+}
+.breadcrumb a {
+  color: #717171;
+  position: relative;
+  margin-right: 15px;
+  font-size: 12px;
+}
+.breadcrumb a::after {
+  content: "/";
+  position: absolute;
+  color: #717171;
+  right: -17px;
+  top: 0;
+}
+.buttons {
+  background: #FFFFFF;
+  border: 1px solid #EEEEEE;
+  overflow: auto;
+  padding: 6px;
+  margin-bottom: 20px;
+}
+a.button {
+  display: inline-block;
+  text-decoration: none;
+  padding: 6px 12px 6px 12px;
+}
+a.button, input.button {
+  cursor: pointer;
+  color: #FFFFFF;
+  line-height: 12px;
+  font-size: 12px;
+  font-weight: bold;
+  background: url('../images/sanpham/button.png') repeat-x;
+  -webkit-border-radius: 7px 7px 7px 7px;
+  -moz-border-radius: 7px 7px 7px 7px;
+  -khtml-border-radius: 7px 7px 7px 7px;
+  border-radius: 7px 7px 7px 7px;
+  -webkit-box-shadow: 0px 2px 2px #DDDDDD;
+  -moz-box-shadow: 0px 2px 2px #DDDDDD;
+  box-shadow: 0px 2px 2px #DDDDDD;
 }
