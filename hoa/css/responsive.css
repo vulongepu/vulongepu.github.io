@@ -1,0 +1,13 @@
+@media all and (min-width: 320px) and (max-width: 780px) {...}
+/* Default styles first then media queries */
+@media screen and (min-width: 400px)  {...}
+@media screen and (min-width: 600px)  {...}
+@media screen and (min-width: 1000px) {...}
+@media screen and (min-width: 1400px) {...}
+/* Menu */
+@media screen and (max-width: 770px) {
+	.search-menu{
+		display: none;
+	}
+	}
+}
