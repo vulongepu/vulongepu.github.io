@@ -49,88 +49,39 @@ a:focus {text-decoration: none;}
 .t-left{text-align: left;}
 .container{
   max-width: 1180px;
-  /*border: 1px solid red;*/
 }
+/************************************************************
+*************************TRA HANG HTML******************************
+*************************************************************/
 /* ---------------------------------------------------------------------------- */
 /* ----------------------------------Header////-------------------------------- */
 /* ---------------------------------------------------------------------------- */
-.top-menu .navbar {
-  border-radius: 0px;
-}
-.top-menu .navbar-default {
-  background-color: #464646;
-  border-color: #464646;
-}
-.top-menu .navbar-default .navbar-nav > li > a {
-  color: white;
-  text-transform: uppercase;
-  font-weight: bold;
-}
-.top-menu .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
-  color: #F4B244;
-}
-.top-menu .navbar-nav > li {
-  /*border-left: 1px solid #cfcfcf;*/
-}
-/* ----------------------------------Menu-content-------------------------------- */
-.menu-content{
-  background: url(../images/bg-special.png);
-  height: 90px;
-  line-height: 90px;
-  /*background: url(../images/line.png) no-repeat;*/
-}
-.menu-content img {
-  /* margin-top: 2%; */
-  padding-top: 1.5%;
-}
-.form-control {
-  border-radius: 50px;
-}
-.btn {
-  border-radius: 20px;
-}
-.navbar {
-  margin-bottom: 0px;
-}
-.caret-up {
-    width: 0; 
-    height: 0; 
-    border-left: 4px solid rgba(0, 0, 0, 0);
-    border-right: 4px solid rgba(0, 0, 0, 0);
-    border-bottom: 4px solid;
-    
-    display: inline-block;
-    margin-left: 2px;
-    vertical-align: middle;
-}
-/* ----------------------------------Bot-Menu-------------------------------- */
 
-.bot-menu .navbar-default .navbar-nav > li > a {
-  color: black;
-  text-transform: uppercase;
-  font-weight: bold;
+
+/* ---------------------------------------------------------------------------- */
+/* ----------------------------------Bar////-------------------------------- */
+/* ---------------------------------------------------------------------------- */
+.left-bar{
+  margin-top: 30px;
 }
-.bot-menu .navbar-default {
-  border-color: #F8F8F8;
-  border-bottom: 1px solid black;
-}
-.bot-menu .navbar {
-  border-radius: 0px;
-}
-.nav > li > a > img {
-  padding: 10px 5px;
-}
-.top-menu .navbar-nav > li {
+.left-bar li{
   float: left;
-  display: block;
-  line-height: 49px;
-  background-color: transparent;
 }
-.top-menu .navbar-nav > li a {
-  font-size: 14px;
-  color: #FFFFFF;
-  padding-right: 24px;
-  float: left;
-  text-transform: uppercase;
-  font-weight: 600;
+.left-bar li:nth-child(1){
+  padding:13px 19px; 
+  border: 1px solid #cfcfcf;
+  height: 100%;
+  }
+.left-bar li:nth-child(2){
+  background: #EEEEEE;
+  padding:4px 10px;
+  border: 1px solid #cfcfcf;
+}
+.left-bar li:nth-child(3){
+  background: #E1E1E1;
+  padding:4px 10px;
+  border: 1px solid #cfcfcf;
+}
+.right-bar{
+  float: right;
 }

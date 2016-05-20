@@ -1,0 +1,18 @@
+@media all and (min-width: 790px) and (max-width: 1075px) {
+	.wrapper ul.top_rt {
+	display: none !important;
+}
+}
+/*.wrapper ul.top_rt {
+	display: none !important;
+}
+.wrapper ul.top_lf {
+	display: none !important;
+}*/
+
+@media screen and (max-width: 1075px) {
+	.search{
+		display: none;
+	}
+}
+}

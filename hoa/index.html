@@ -13,6 +13,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
 	
 	<!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
     <link href="css/responsive.css" rel="stylesheet">
 	<link rel="stylesheet" href="fonts/stylesheet.css">
@@ -27,125 +28,330 @@
 </head>
 <body>
    <header>
-      <div class="container-fluid row">
-          <div class="top-menu">
-              <nav class="navbar navbar-default">
-                  <div class="container">
-                      <div class="container-fluid">
-                    <!-- Brand and toggle get grouped for better mobile display -->
-                    <div class="navbar-header">
-                      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                      </button>
-                    </div>
-
-                    <!-- Collect the nav links, forms, and other content for toggling -->
-                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                      <ul class="nav navbar-nav">
-                        <li><a href="#"><img src="images/icon/icon-hyt.png" alt=""> <span>Hoa yêu thương</span></a></li>
-                        <li><a href="#"><img src="images/icon/icon-tree.png" alt=""> <span>Cây may mắn</span></a></li>
-                        <li><a href="#"><img src="images/icon/icon-gift.png" alt=""> <span>Kẹo ngọt</span></a></li>
-                        <li><a href="#"><img src="images/icon/icon-teddy.png" alt=""><span> Gấu bông</span></a></li>
-                      </ul>
-                      <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#">Tài khoản</a></li>
-                        <li><a href="#"><img src="images/icon/icon-cart.png" alt="">Giỏ hàng</a></li>
-                        <li><a href="#"><img src="images/icon/flag-en.png" alt=""></a></li>
-                      </ul>
-                    </div><!-- /.navbar-collapse -->
-                  </div><!-- /.container-fluid -->
-                  </div>
-                </nav>
-          </div>
-      </div> 
-      <div class="container-fluid row">
-        <div class="menu-content">
-          <div class="container">
-             <img src="images/logo-hoa-yeu-thuong.png" alt="">
-             <form class="navbar-form navbar-right search-menu" role="search">
-                <div class="form-group">
-                  <input type="text" class="form-control" placeholder="Tìm kiếm sản phẩm">
-                </div>
-                <button type="submit" class="btn btn-default"><i class="fa fa-search"></i></button>
-              </form>
-            </div>
-          </div>
-          </div>
-        <div class="container-fluid row">
-        <div class="bot-menu">
-            <nav class="navbar navbar-default" role="navigation">
-              <div class="container">
-                <!-- Brand and toggle get grouped for better mobile display -->
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-          </div>
-
-          <!-- Collect the nav links, forms, and other content for toggling -->
-          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav">
-              <li><a href="#">Trang chủ</a></li>
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Hoa sinh nhật </a>
-                <ul class="dropdown-menu">
-                  <li><a href="#">Action</a></li>
-                  <li><a href="#">Another action</a></li>
-                  <li><a href="#">Something else here</a></li>
-                  <li class="divider"></li>
-                  <li><a href="#">Separated link</a></li>
-                  <li class="divider"></li>
-                  <li><a href="#">One more separated link</a></li>
+         <div class="container-fluid row">
+             <div id="top_header">
+                <div class="wrapper">
+                <ul class="top_lf">
+                <li class="top_divider mobile">&nbsp;</li>
+                <li class="nav_mobile mobile">&nbsp;</li>
+                <li class="top_divider">&nbsp;</li>
+                <li class="hover">
+                <a id="ctl00_ucTopHeader_hplHyt" title="Shop Hoa yêu thương" href="/"><img id="ctl00_ucTopHeader_imgHyt" alt="Hoa yêu thương" title="Hoa yêu thương" src="images/icon/icon-hyt.png" style="border-width:0px;">
+                <span>
+                Hoa yeu thuong</span>
+                </a>
+                </li>
+                <li class="top_divider">&nbsp;</li>
+                <li class="hover">
+                <a id="ctl00_ucTopHeader_hplLucky" title="Cây may mắn" href="/cay-canh.aspx"><img id="ctl00_ucTopHeader_imgLucky" alt="Cây may mắn" title="Cây may mắn" src="images/icon/icon-tree.png" style="border-width:0px;">
+                <span>
+                Cây may mắn
+                </span>
+                </a>
+                </li>
+                <li class="top_divider">&nbsp;</li>
+                <li class="hover">
+                <a id="ctl00_ucTopHeader_hplSweet" title="Kẹo ngọt" href="/qua-tang.aspx"><img id="ctl00_ucTopHeader_imgSweet" alt="Kẹo ngọt" title="Kẹo ngọt" src="images/icon/icon-gift.png" style="border-width:0px;">
+                <span>
+                Kẹo ngọt
+                </span>
+                </a>
+                </li>
+                <li class="top_divider">&nbsp;</li>
+                <li class="hover">
+                <a id="ctl00_ucTopHeader_hplTeddy" title="Gấu bông" href="/qua-tang/gau-bong.aspx"><img id="ctl00_ucTopHeader_imgTeddy" alt="Gấu bông" title="Gấu bông" src="images/icon/icon-teddy.png" style="border-width:0px;">
+                <span>
+                Gấu bông
+                </span>
+                </a>
+                </li>
+                <li class="top_divider">&nbsp;</li>
+                <li class="top_divider mobile">&nbsp;</li>
                 </ul>
-              </li>
-              <li><a href="#"><p>Chủ đề</p></a></li>
-              <li><a href="#">Hoa tươi</a></li>
-              <li><a href="#">Màu sắc</a></li>
-              <li><a href="#">Hoa đặc biệt</a></li>
-              <li><a href="#">Quà tặng kèm</a></li>
-              <li><a href="#">Hoa cưới</a></li>
-              <li><a href="#">Ý nghĩa hoa</a></li>
-            </ul>
-          </div><!-- /.navbar-collapse -->
-        
+                <ul class="top_rt">
+                <li class="my_account">
+                <a id="ctl00_ucTopHeader_hplMyAccount" title="Tài khoản" href="/account/account.aspx?lang=vn">Tài khoản</a>
+                <div id="ctl00_ucTopHeader_pnlLogin" class="ddlist">
+                <ul>
+                <li><a id="ctl00_ucTopHeader_hplLogin" title="Đăng nhập hoặc tạo tài khoản mới" href="/account/account.aspx?lang=vn">Đăng nhập hoặc tạo tài khoản mới</a></li>
+                <li><a id="tracking" href="javascript:void(0);">Kiểm tra đơn hàng</a></li>
+                <li><a id="ctl00_ucTopHeader_hplForgot" title="Quên mật khẩu" href="/account/forgot.aspx?lang=vn">Quên mật khẩu</a></li>
+                <li><a id="ctl00_ucTopHeader_hplFAQs" title="Câu hỏi thường gặp (FAQs)" href="/faq-cau-hoi-thuong-gap.aspx">Câu hỏi thường gặp (FAQs)</a></li>
+                </ul>
+                </div>
+                </li>
+                <li>|</li>
+                <li>
+                <a id="ctl00_ucTopHeader_hplViewCart" class="view_cart" title="Giỏ hàng" href="javascript:void(0);">Giỏ hàng</a></li>
+                <li class="top_divider">&nbsp;</li>
+                <li>
+                <a id="ctl00_ucTopHeader_hplEN" title="English" href="/en"><img id="ctl00_ucTopHeader_imgEN" alt="English" title="English" src="images/icon/flag-en.png" style="border-width:0px;"></a></li>
+                <li>
+                </li>
+              </ul>
               </div>
-           
-        </nav>
-
-  </div>
-        </div>
-        <script>
-              $(function(){
-    $(".dropdown").hover(            
-            function() {
-                $('.dropdown-menu', this).stop( true, true ).fadeIn("fast");
-                $(this).toggleClass('open');
-                $('b', this).toggleClass("caret caret-up");                
-            },
-            function() {
-                $('.dropdown-menu', this).stop( true, true ).fadeOut("fast");
-                $(this).toggleClass('open');
-                $('b', this).toggleClass("caret caret-up");                
-            });
-    });
-    
-        </script>
+              </div>
+ <!-- ====================content-menu====================== -->
+            <div id="header">
+              <div class="wrapper">
+              <div id="logo_header">
+              <div class="logo">
+              <a id="ctl00_ucHeader_hplLogo" title="Shop hoa yêu thương" href="/"><img id="ctl00_ucHeader_imgLogo" alt="Shop hoa yêu thương" title="Shop hoa yêu thương" src="images/logo-hoa-yeu-thuong.png" style="border-width:0px;"></a>
+              </div>
+              <div id="ctl00_ucHeader_pnlSearch" class="search" onkeypress="javascript:return WebForm_FireDefaultButton(event, 'ctl00_ucHeader_btnSearch')">
+              <input name="ctl00$ucHeader$txtSearch" id="ctl00_ucHeader_txtSearch" placeholder="Tìm sản phẩm" type="text">
+              <input name="ctl00$ucHeader$btnSearch" value=""id="ctl00_ucHeader_btnSearch" type="submit">
+              </div>
+              </div>
+              </div>
+              <div id="top_menu">
+              <div class="wrapper">
+              <ul class="header_nav">
+              <li><strong>
+              <a id="ctl00_ucHeader_hplHomepage" title="Trang chủ" href="/">Trang chủ</a></strong></li>
+              <li class="has_child"><strong>
+              <a id="ctl00_ucHeader_hplBirthdayFlowers" title="Hoa sinh nhật" href="/hoa-sinh-nhat.aspx">Hoa sinh nhật</a></strong>
+              <div>
+              <p><strong><a id="ctl00_ucHeader_hplParentBirthay" title="Sinh nhật Ba Mẹ" href="/hoa-sinh-nhat/hoa-sinh-nhat-ba-me.aspx">Sinh nhật Ba Mẹ</a></strong></p>
+              <p><strong><a id="ctl00_ucHeader_hplColleagueBirthday" title="Sinh nhật đồng nghiệp" href="/hoa-sinh-nhat/hoa-sinh-nhat-dong-nghiep.aspx">Sinh nhật đồng nghiệp</a></strong></p>
+              <p><strong><a id="ctl00_ucHeader_hplLoverBirthday" title="Sinh nhật người yêu" href="/hoa-sinh-nhat/hoa-sinh-nhat-nguoi-yeu.aspx">Sinh nhật người yêu</a></strong></p>
+              <p><strong><a id="ctl00_ucHeader_hplHusbandWifeBirthday" title="Sinh nhật OX, BX" href="/hoa-sinh-nhat/hoa-sinh-nhat-ox-bx.aspx">Sinh nhật OX, BX</a></strong></p>
+              </div>
+              </li>
+              <li class="has_child"><strong><a id="ctl00_ucHeader_hplOccasions" title="Chủ đề" href="/dien-hoa.aspx">Chủ đề</a></strong>
+              <div>
+              <p><strong><a id="ctl00_ucHeader_hplOccasionsBirthday" title="Hoa sinh nhật" href="/dien-hoa/hoa-sinh-nhat.aspx">Hoa sinh nhật</a></strong></p>
+              <p><strong><a id="ctl00_ucHeader_hplFlowersForMom" title="Hoa tặng mẹ" href="/dien-hoa/hoa-tang-me.aspx">Hoa tặng mẹ</a></strong></p>
+              <p><strong><a id="ctl00_ucHeader_hplLoveFlowers" title="Hoa tình yêu" href="/dien-hoa/hoa-tinh-yeu.aspx">Hoa tình yêu</a></strong></p>
+              <p><strong><a id="ctl00_ucHeader_hplGraduation" title="Hoa mừng tốt nghiệp" href="/dien-hoa/hoa-chuc-mung-tot-nghiep.aspx">Hoa mừng tốt nghiệp</a></strong></p>
+              <p><strong><a id="ctl00_ucHeader_hplGetWell" title="Hoa chúc sức khỏe" href="/dien-hoa/hoa-chuc-suc-khoe.aspx">Hoa chúc sức khỏe</a></strong></p>
+              <p><strong><a id="ctl00_ucHeader_hplChristmas" title="Hoa Giáng Sinh" href="/dien-hoa/hoa-giang-sinh.aspx">Hoa Giáng Sinh</a></strong></p>
+              <p><strong><a id="ctl00_ucHeader_hplOccasionsSympathy" title="Hoa chia buồn" href="/dien-hoa/hoa-chia-buon.aspx">Hoa chia buồn</a></strong></p>
+              </div>
+              </li>
+              <li class="has_child"><strong><a id="ctl00_ucHeader_hplFlowers" title="Hoa tươi" href="/hoa-tuoi.aspx">Hoa tươi</a></strong>
+              <div>
+              <p><strong><a id="ctl00_ucHeader_hplCarnations" title="Cẩm chướng" href="/hoa-tuoi/hoa-cam-chuong.aspx">Cẩm chướng</a></strong></p>
+              <p><strong><a id="ctl00_ucHeader_hplDaisies" title="Hoa cúc" href="/hoa-tuoi/hoa-cuc.aspx">Hoa cúc</a></strong></p>
+              <p><strong><a id="ctl00_ucHeader_hplGerberas" title="Hòa Đồng Tiền" href="/hoa-tuoi/hoa-dong-tien.aspx">Hòa Đồng Tiền</a></strong></p>
+              <p><strong><a id="ctl00_ucHeader_hplRoses" title="Hoa hồng" href="/hoa-tuoi/hoa-hong.aspx">Hoa hồng</a></strong></p>
+              <p><strong><a id="ctl00_ucHeader_hplOrchids" title="Lan hồ điệp" href="/hoa-tuoi/hoa-lan.aspx">Lan hồ điệp</a></strong></p>
+              <p><strong><a id="ctl00_ucHeader_hplCallas" title="Hoa Loa Kèn" href="/hoa-tuoi/hoa-loa-ken.aspx">Hoa Loa Kèn</a></strong></p>
+              <p><strong><a id="ctl00_ucHeader_hplLilis" title="Hoa ly" href="/hoa-tuoi/hoa-ly.aspx">Hoa ly</a></strong></p>
+              <p><strong><a id="ctl00_ucHeader_hplLotus" title="Hoa Sen" href="/hoa-tuoi/hoa-sen.aspx">Hoa Sen</a></strong></p>
+              <p><strong><a id="ctl00_ucHeader_hplTulips" title="Hoa Tulip" href="/hoa-tuoi/hoa-tulip.aspx">Hoa Tulip</a></strong></p>
+              </div>
+              </li>
+              <li class="has_child"><strong><a id="ctl00_ucHeader_hplColors" title="Màu sắc" href="/mau-hoa-tuoi.aspx">Màu sắc</a></strong>
+              <div>
+              <p><strong><a id="ctl00_ucHeader_hplOrange" title="Màu cam" href="/mau-hoa-tuoi/hoa-tuoi-mau-cam.aspx">Màu cam</a></strong></p>
+              <p><strong><a id="ctl00_ucHeader_hplRed" title="Màu đỏ" href="/mau-hoa-tuoi/hoa-tuoi-mau-do.aspx">Màu đỏ</a></strong></p>
+              <p><strong><a id="ctl00_ucHeader_hplPurple" title="Màu tím" href="/mau-hoa-tuoi/hoa-tuoi-mau-tim.aspx">Màu tím</a></strong></p>
+              <p><strong><a id="ctl00_ucHeader_hplBlue" title="Màu xanh (xanh dương, xanh lá)" href="/mau-hoa-tuoi/hoa-tuoi-mau-xanh.aspx">Màu xanh (xanh dương, xanh lá)</a></strong></p>
+              <p><strong><a id="ctl00_ucHeader_hplPink" title="Màu hồng" href="/mau-hoa-tuoi/hoa-tuoi-mau-hong.aspx">Màu hồng</a></strong></p>
+              <p><strong><a id="ctl00_ucHeader_hplYellow" title="Màu vàng" href="/mau-hoa-tuoi/hoa-tuoi-mau-vang.aspx">Màu vàng</a></strong></p>
+              <p><strong><a id="ctl00_ucHeader_hplWhite" title="Màu trắng" href="/mau-hoa-tuoi/hoa-tuoi-mau-trang.aspx">Màu trắng</a></strong></p>
+              <p><strong><a id="ctl00_ucHeader_hplMixed" title="Kết hợp màu" href="/mau-hoa-tuoi/hoa-tuoi-nhieu-mau.aspx">Kết hợp màu</a></strong></p>
+              </div>
+              </li>
+              <li class="has_child"><strong><a id="ctl00_ucHeader_hplSpecialFlowers" title="Hoa đặc biệt" href="/cua-hang-hoa.aspx">Hoa đặc biệt</a></strong>
+              <div>
+              <p><strong><a id="ctl00_ucHeader_hplLuxury" title="Hoa cao cấp" href="/cua-hang-hoa/hoa-cao-cap.aspx">Hoa cao cấp</a></strong></p>
+              <p><strong><a id="ctl00_ucHeader_hplNormal" title="Hoa sinh viên" href="/cua-hang-hoa/hoa-sinh-vien.aspx">Hoa sinh viên</a></strong></p>
+              <p><strong><a id="ctl00_ucHeader_hplSampleNewFlowers" title="Mẫu hoa mới" href="/cua-hang-hoa/mau-hoa-moi.aspx">Mẫu hoa mới</a></strong></p>
+              <p><strong><a id="ctl00_ucHeader_hplPromotion" title="Khuyến mãi" href="/cua-hang-hoa/hoa-khuyen-mai.aspx">Khuyến mãi</a></strong></p>
+              <p><strong><a id="ctl00_ucHeader_hplVietnameseWomenDay" title="Ngày phụ nữ Việt Nam (20/10)" href="/cua-hang-hoa/hoa-tuoi-20-10.aspx">Ngày phụ nữ Việt Nam (20/10)</a></strong></p>
+              <p><strong><a id="ctl00_ucHeader_hplTeacherWomenDay" title="Ngày Nhà Giáo" href="/cua-hang-hoa/hoa-tuoi-20-11.aspx">Ngày Nhà Giáo</a></strong></p>
+              <p><strong><a id="ctl00_ucHeader_hplTetHoliday" title="Hoa Tết" href="/cua-hang-hoa/hoa-tet.aspx">Hoa Tết</a></strong></p>
+              </div>
+              </li>
+              <li class="has_child"><strong><a id="ctl00_ucHeader_hplGifts" title="Quà tặng kèm" href="/qua-tang.aspx">Quà tặng kèm</a></strong>
+              <div>
+              <p><strong><a id="ctl00_ucHeader_hplGirval" title="Bánh kem Givral" href="/qua-tang/banh-kem-givral.aspx">Bánh kem Givral</a></strong></p>
+              <p><strong><a id="ctl00_ucHeader_hplBovina" title="Sô-cô-la Boniva" href="/qua-tang/boniva-chocolate.aspx">Sô-cô-la Boniva</a></strong></p>
+              <p><strong><a id="ctl00_ucHeader_hplGraphics" title="Chocolate Graphics" href="/qua-tang/graphics-chocolate.aspx">Chocolate Graphics</a></strong></p>
+              </div>
+              </li>
+              <li><strong><a id="ctl00_ucHeader_hplWeddingDecoration" title="Hoa cưới" href="/hoa-cuoi">Hoa cưới</a></strong></li>
+              <li><strong><a id="ctl00_ucHeader_hplFlowerMeaning" title="Ý nghĩa hoa" href="/y-nghia-hoa.aspx">Ý nghĩa hoa</a></strong></li>
+              </ul>
+              </div>
+              </div>
+              </div>
+         </div><!-- container-fluid -->
    </header>
-   <footer></footer>
-</body>
+   <!-- ========================Page-2======================== -->
+  <div id="page2">
+    <div class="container">
+       <div class="col-md-9" style="background: #F7F7F7;">
+         <ul class="left-bar">
+         <li><a href=""></a></li>
+         <li><a href=""></a>Hoa đặc biệt</li>
+         <li><a href=""></a>Hoa cao cấp</li>
+       </ul>
+       <div class="right-bar">
+          <strong>Sắp sếp theo:</strong>
+          <div class="drop_content">
+            <span id="lblSortTitle">Mặc định</span>
+            <ul>
+            <li>
+            <a id="hplDefault" title="Mặc định" href="">Mặc định</a></li>
+            <li>
+            <a id="hplPriceLow" title="Giá từ thấp tới cao" href="">Giá từ thấp tới cao</a></li>
+            <li>
+            <a id="hplPriceHigh" title="Giá từ cao tới thấp" href="">Giá từ cao tới thấp</a></li>
+            <li>
+            <a id="hplNameA" title="Tên: A-Z" href="">Tên: A-Z</a></li>
+            <li>
+            <a id="hplNameZ" title="Tên: Z-A" href="">Tên: Z-A</a></li>
+            </ul>
+            </div>
+       </div>
+       </div><!-- col-md-9 -->
+    </div><!-- container -->
+  </div><!-- page2 -->
+   <footer>
+     
+<div class="container">
+  <div class="row">
+    <h2>Button Dropdown Select</h2><br>
+<div class="bs-docs-example">
+  <select class="selectpicker" data-style="btn-primary" style="display: none;">
+      <option>Mustard</option>
+      <option>Ketchup</option>
+      <option>Relish</option>
+  </select>
+  <select class="selectpicker" data-style="btn-info" style="display: none;">
+      <option>Mustard</option>
+      <option>Ketchup</option>
+      <option>Relish</option>
+  </select>
+  <select class="selectpicker" data-style="btn-success" style="display: none;">
+      <option>Mustard</option>
+      <option>Ketchup</option>
+      <option>Relish</option>
+  </select>
+  <select class="selectpicker" data-style="btn-warning" style="display: none;">
+      <option>Mustard</option>
+      <option>Ketchup</option>
+      <option>Relish</option>
+  </select>
+  <select class="selectpicker" data-style="btn-danger" style="display: none;">
+      <option>Mustard</option>
+      <option>Ketchup</option>
+      <option>Relish</option>
+  </select>
+  <select class="selectpicker" data-style="btn-inverse" style="display: none;">
+      <option>Mustard</option>
+      <option>Ketchup</option>
+      <option>Relish</option>
+  </select>
+      
+  </div>
+<div class="bs-docs-example">
+  <select class="selectpicker" multiple="" style="display: none;">
+    <option>Mustard</option>
+    <option>Ketchup</option>
+    <option>Relish</option>
+  </select>
+</div>
+<select class="selectpicker" data-show-subtext="true" style="display: none;">
+        <option data-subtext="French's">Mustard</option>
+        <option data-subtext="Heinz">Ketchup</option>
+        <option data-subtext="Sweet">Relish</option>
+        <option data-subtext="Miracle Whip">Mayonnaise</option>
+        <option data-divider="true"></option>
+        <option data-subtext="Honey">Barbecue Sauce</option>
+        <option data-subtext="Ranch">Salad Dressing</option>
+        <option data-subtext="Sweet & Spicy">Tabasco</option>
+        <option data-subtext="Chunky">Salsa</option>
+    </select>
+    <select class="selectpicker" data-header="Select a condiment" style="display: none;">
+        <option data-subtext="French's">Mustard</option>
+        <option data-subtext="Heinz">Ketchup</option>
+        <option data-subtext="Sweet">Relish</option>
+        <option data-subtext="Miracle Whip">Mayonnaise</option>
+        <option data-divider="true"></option>
+        <option data-subtext="Honey">Barbecue Sauce</option>
+        <option data-subtext="Ranch">Salad Dressing</option>
+        <option data-subtext="Sweet & Spicy">Tabasco</option>
+        <option data-subtext="Chunky">Salsa</option>
+    </select>
+    <select class="selectpicker" data-size="5" style="display: none;">
+      <option>Mustard</option>
+      <option>Ketchup</option>
+      <option>Relish</option>
+      <option>Mayonnaise</option>
+      <option>Barbecue Sauce</option>
+      <option>Salad Dressing</option>
+      <option>Tabasco</option>
+      <option>Salsa</option>
+  </select>
+  <select class="selectpicker">
+    <optgroup label="Picnic" disabled>
+      <option>Mustard</option>
+      <option>Ketchup</option>
+      <option>Relish</option>
+    </optgroup>
+    <optgroup label="Camping">
+      <option>Tent</option>
+      <option>Flashlight</option>
+      <option>Toilet Paper</option>
+    </optgroup>
+  </select>
+  <select class="selectpicker">
+    <option>Mustard</option>
+    <option class="special">Ketchup</option>
+    <option>Relish</option>
+  </select>
+    <select class="selectpicker" data-style="btn-primary" style="display: none;">
+      <option data-icon="glyphicon glyphicon-music">Mustard</option>
+      <option data-icon="glyphicon glyphicon-star">Ketchup</option>
+      <option data-icon="glyphicon glyphicon-heart">Relish</option>
+  </select>
+      <select class="selectpicker" data-style="btn-primary" data-width="auto" style="display: none;">
+      <option data-icon="glyphicon glyphicon-music">Mustard</option>
+      <option data-icon="glyphicon glyphicon-star">Ketchup</option>
+      <option data-icon="glyphicon glyphicon-heart">Relish</option>
+  </select><br>
+  <h4>Original by <a href="http://silviomoreto.github.io/bootstrap-select/">http://silviomoreto.github.io/bootstrap-select/</a><br>
+      Tweaked by <a href="http://www.twitter.com/RodyMolenaar">@RodyMolenaar</a>
+  </h4>
+  </div>
+</div>
+
+<script type="text/javascript">
+      window.onload=function(){
+      $('.selectpicker').selectpicker();
+      $('.rm-mustard').click(function() {
+        $('.remove-example').find('[value=Mustard]').remove();
+        $('.remove-example').selectpicker('refresh');
+      });
+      $('.rm-ketchup').click(function() {
+        $('.remove-example').find('[value=Ketchup]').remove();
+        $('.remove-example').selectpicker('refresh');
+      });
+      $('.rm-relish').click(function() {
+        $('.remove-example').find('[value=Relish]').remove();
+        $('.remove-example').selectpicker('refresh');
+      });
+      $('.ex-disable').click(function() {
+          $('.disable-example').prop('disabled',true);
+          $('.disable-example').selectpicker('refresh');
+      });
+      $('.ex-enable').click(function() {
+          $('.disable-example').prop('disabled',false);
+          $('.disable-example').selectpicker('refresh');
+      });
+
+      // scrollYou
+      $('.scrollMe .dropdown-menu').scrollyou();
+
+      prettyPrint();
+      };
+    </script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.5.4/bootstrap-select.js" />
+   </footer>
+</body> 
 
 </html>
-
-<!-- <li class="hover">
-<a id="ctl00_ucTopHeader_hplSweet" title="Kẹo ngọt" href="/qua-tang.aspx"><img id="ctl00_ucTopHeader_imgSweet" alt="Kẹo ngọt" title="Kẹo ngọt" src="https://hyt.r.worldssl.net/images/icon-gift.png" >
-<span>
-Kẹo ngọt
-</span>
-</a>
-</li> -->
