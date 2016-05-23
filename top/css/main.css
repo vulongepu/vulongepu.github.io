@@ -363,7 +363,7 @@ Licensed under MIT
   background-color: #fff;
   background-image: url("../images/hoa-giam-gia.png");
   background-repeat: no-repeat;
-  height: 338px;
+  height: 350px;
   border: 10px solid #D4E9FF;
   padding:5px;
 }
@@ -404,6 +404,7 @@ Licensed under MIT
   border: 1px solid #cfcfcf;
   padding:20px;
   text-align: center;
+  margin-bottom: 20px;
 }
 h1.game-over{
   color: #555555;
@@ -428,7 +429,7 @@ h1.game-over{
 /* ----------------------------------index.html////-------------------------------- */
 /* ---------------------------------------------------------------------------- */
 .menu-top{
-  background: #464646;
+  background: #277BDE;
   height: 50px;
   line-height: 50px;
 }
@@ -489,6 +490,12 @@ h1.game-over{
   background-color: #f8f8f8;
   border-color: #e7e7e7;
   border-bottom: 1px solid #000;
+}
+.menu-top li:last-child img {
+  padding: 18px 5px;
+}
+.menu-top li:nth-child(5) {
+  padding-left: 27%;
 }
 /* ---------------------------------------------------------------------------- */
 /* ----------------------------------Page////-------------------------------- */
@@ -551,23 +558,27 @@ h1.game-over{
    font-size: 18px;
 }
 .flower-789{
+  width: 100%;
   background: #FFEFEA;
   padding:10px;
-  height: 210px;
+  display: inline-block;
 }
 .season{
   background: #EBEBEB;
-  height: 230px;
-  padding:10px 0px;
+  /*height: 230px;*/
+  display: inline-block;
+  padding:5px 0px;
 }
 .season img{
   width: 100%;
 }
 .ice{
   background: #EBEBEB;
-  height: 144px;
+  /*height: 144px;*/
+  display: inline-block;
   padding:10px;
   margin-bottom: 20px;
+  margin-top: 20px;
 }
 .ice p{
   color: #636363;
@@ -596,6 +607,9 @@ h1.game-over{
   background: url(../images/bg-special.png);
   padding:20px;
 }
+.fire{
+  padding:20px 0;
+}
 .fire h1{
   color: #636363;
   text-transform: uppercase;
@@ -614,7 +628,7 @@ h1.game-over{
    font-size: 18px;
 }
 .line-t{
-  background: url(../images/line.png);
+  /*background: url(../images/line.png);*/
   background-repeat: repeat-x;
 }
 .line-t h2:before{
@@ -672,7 +686,10 @@ h1.game-over{
 }
 .hao-345{
   background: url(../images/bg-hot-line.png);
-  height: 148px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: inline-block;
+  width: 100%;
 }
 .hao-345 h1{
   font-weight: bold;
@@ -686,6 +703,9 @@ h1.game-over{
   color:#333333;
   margin-left: 10px;
   margin-bottom: 5px;
+}
+.hao-345 p:last-child{
+  padding-bottom: 40px;
 }
 .hao-345 span{
   color: #BD2026;
@@ -957,7 +977,7 @@ color: #2E2E2E;
   height: 140px;
   width:100%;
   background: #EBEBEB;
-  padding: 0 48px;
+  padding: 0 10px;
 }
 .lahoa{
   width: 33.333333333333333333%;  
@@ -995,7 +1015,7 @@ color: #2E2E2E;
   background-color: #FFFFFF;
   float: left;
   position: relative;
-  width: 225px;
+  width: 268px;
   height: 125px;
   margin: 8px 10px 8px 0px;
   display: table;
@@ -1011,4 +1031,87 @@ color: #2E2E2E;
   vertical-align: middle;
   font-weight: 400;
   text-transform: uppercase;
+}
+/* =================================== */
+.ice-123{
+  width: 50%;
+  float: left;
+}
+.ice-456{
+  width: 50%;
+  float: left;
+  padding: 0px 10px 10px 10px;
+}
+/* ================================ */
+.over1{
+  width: 100%;
+  /*height: 145px;*/
+  background: blue;
+  display: inline-block;
+  position: relative;
+}
+.over1 img{
+  position: absolute;
+}
+.over2{
+  width: 100%;
+  height: 139px;
+  background: url(../images/bg-support-choose.png);
+  background-size: 100% 100%;
+}
+.hao-3456{
+  position: relative;
+}
+.hoayeu{
+  position: absolute;
+}
+.yeudi{
+  position: absolute;
+}
+.hao-3456 h1{
+  font-weight: bold;
+  font-size: 18px;
+  color: #BD2026;
+  text-align: center;
+  padding:7px 0;
+}
+.hao-3456 p{
+  font-size: 16px;
+  color:#333333;
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+.hao-3456 span{
+  color: #BD2026;
+}
+.hao-3456 h3{
+  color: white;
+  font-size: 16px;
+  margin-left: 10px;
+}
+.inta{
+  background: red;
+  /*height: 222px;*/
+  background: url(../images/bg-special.png);
+}
+.fire{
+  text-align: center;
+}
+.line-t{
+  height: 38px;
+  line-height: 38px;
+}
+.line-t li img {
+  float: left;
+  display: block;
+  border: none;
+  padding: 5px 5px;
+}
+.line-t span{
+  font-size: 18px;
+  color: #636363;
+  text-transform: uppercase;
+}
+.anime{
+  margin-bottom: 20px;
 }

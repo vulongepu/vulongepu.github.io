@@ -26,7 +26,96 @@
     <script src="js/bootstrap.min.js"></script>
 </head>
 <body>
-  <header></header>
+  <header>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="menu-top">
+          <div class="container">
+           <ul>
+             <li><a href=""><img src="images/icon/icon-hyt.png" alt="">hoa yêu thương</a></li>
+             <li><a href=""><img src="images/icon/icon-tree.png" alt="">cây may mắn</a></li>
+             <li><a href=""><img src="images/icon/icon-gift.png" alt="">kẹo ngọt</a></li>
+             <li><a href=""><img src="images/icon/icon-teddy.png" alt="">Gấu bông</a></li>
+             <li><a href=""><img src="images/icon/.png" alt="">tài khoản</a></li>
+             <li><a href="">giỏ hàng</a></li>
+             <li><a href=""><img src="images/icon/flag-en.png" alt=""></a></li>
+           </ul>
+           </div>
+        </div><!-- menu-top -->
+        <div class="menu-contai">
+          <div class="container">
+           <div class="col-md-12">
+            <div class="col-md-3">
+              <img src="images/logo-hoa-yeu-thuong.png" alt="">
+            </div>
+            <div class="col-md-4">
+            </div>
+          </div>
+          </div>
+        </div>
+
+        <nav class="navbar navbar-default" role="navigation">
+        <div class="container">
+  <div class="row">
+  
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="#">trang chủ</a></li>
+        <li><a href="#">hoa sinh nhật</a></li>
+        <li><a href="#">chủ đề</a></li>
+        <li><a href="#">hoa tươi</a></li>
+        <li><a href="#">màu sắc</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Hoa đặc biệt </a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+            <li class="divider"></li>
+            <li><a href="#">One more separated link</a></li>
+          </ul>
+        </li>
+        <li><a href="#">quà tặng kèm</a></li>
+        <li><a href="#">hoa cưới</a></li>
+        <li><a href="#">ý nghĩa hoa</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  
+
+  </div>
+</div>
+</nav>
+<script>
+      $(function(){
+       $(".dropdown").hover(            
+            function() {
+                $('.dropdown-menu', this).stop( true, true ).fadeIn("fast");
+                $(this).toggleClass('open');
+                $('b', this).toggleClass("caret caret-up");                
+            },
+            function() {
+                $('.dropdown-menu', this).stop( true, true ).fadeOut("fast");
+                $(this).toggleClass('open');
+                $('b', this).toggleClass("caret caret-up");                
+            });
+          });
+</script>
+     </div><!-- fulllllllllllllllllll -->
+     </div>
+  </header>
   <div id="page">
      <div class="container">
         <div class="col-md-9">
@@ -39,6 +128,7 @@
                 <li><a href=""><a href="">Hoa cao cấp</a></a></li>
               </ul>
            </div>
+           <div class="clear"></div>
            <div class="col-md-5">
               <div class="flower">
                 <span id="new-flower"></span>
@@ -397,7 +487,7 @@ Trong trường hợp sản phẩm mới có giá trị nhỏ hơn giá trị s�
 
         </div> <!-- product -->
      </div><!-- col-md-9 -->
-     <div class="col-md-3">
+     <div class="col-md-3 dic-777">
         <div class="box-right">
           <img src="images/dat-hoa-so-luong-lon.png" alt="" width="100%">
         </div>
@@ -407,7 +497,126 @@ Trong trường hợp sản phẩm mới có giá trị nhỏ hơn giá trị s�
         </div>
      </div><!-- col-md-3 -->
   </div><!-- page -->
-  <footer></footer>      
+  <div class="clear"></div>
+          <footer class="footer1">
+      <div class="container">
+      <div class="row"><!-- row -->
+                      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12"><!-- widgets column left -->
+                      <ul class="list-unstyled clear-margins"><!-- widgets -->
+                                <li class="widget-container widget_nav_menu"><!-- widgets list -->
+                                      <h1 class="title-widget">Thông tin</h1>
+                                      <ul>
+                                         <li><a  href="#"></i> Giới thiệu</a></li>
+                                          <li><a  href="#"></i> Lợi ích khi mua hàng</a></li>
+                                          <li><a  href="#"></i> Thuật ngữ thời trang</a></li>
+                                          <li><a  href="#"></i>  Tuyển dụng và hợp tác</a></li>
+                                          <li><a  href="#"></i>  Khách hàng mua sỉ</a></li>
+                                          <li><a  href="#"></i> Thương hiệu</a></li>
+                                      </ul>
+                                  </li>
+                              </ul>
+                      </div><!-- widgets column left end -->
+                      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12"><!-- widgets column left -->
+                  
+                      <ul class="list-unstyled clear-margins"><!-- widgets -->
+                              
+                                <li class="widget-container widget_nav_menu"><!-- widgets list -->
+                          
+                                      <h1 class="title-widget">Hỗ trợ</h1>
+                                      
+                                      <ul>
+                                          <li><a  href="#"></i>Các câu hỏi thường gặp</a></li>
+                                          <li><a  href="#"></i> Hướng dẫn mua hàng</a></li>
+                                          <li><a  href="#"></i>Hướng dẫn thanh toán</a></li>
+                                          <li><a  href="#"></i> Giao hàng và trả hàng</a></li>
+                                          <li><a  href="#"></i> Hướng dẫn chọn size giày</a></li>
+                                          <li><a  href="#"></i> Hướng dẫn chọn size quần áo</a></li>
+                                      </ul>
+                    </li>
+                              </ul>
+                              
+                      </div><!-- widgets column left end -->
+                      
+                      
+                      
+                      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12"><!-- widgets column left -->
+                  
+                      <ul class="list-unstyled clear-margins"><!-- widgets -->
+                              
+                                <li class="widget-container widget_nav_menu"><!-- widgets list -->
+                          
+                                      <h1 class="title-widget">Danh mục</h1>
+                                      
+                                      <ul>
+
+
+              <li><a href="#"></i>Giày tây - Giày da</a></li>
+              <li><a href="#"></i> Giày lười - Giày mọi</a></li>
+              <li><a href="#"></i> Giày thể thao nam</a></li>
+              <li><a href="#"></i> Quần áo nam</a></li>
+              <li><a href="#"></i> Scandal nam</a></li>
+              <li><a href="#"></i>  Đặt hàng giày nam</a></li>
+              <li><a href="#"></i> Đặt hàng quần áo </a></li>
+
+                                      </ul>
+                          
+                    </li>
+                                  
+                              </ul>
+                               
+                            
+                      </div><!-- widgets column left end -->
+                      
+                      
+                      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12"><!-- widgets column center -->
+                      
+                         
+                          
+                              <ul class="list-unstyled clear-margins"><!-- widgets -->
+                              
+                                <li class="widget-container widget_recent_news"><!-- widgets list -->
+                          
+                                      <h1 class="title-widget">Ngân hàng hỗ trợ </h1>
+                                      
+                                      <div class="social-icons">
+                                      
+                                        <ul class="nomargin">
+                                          
+                      <a href="https://www.facebook.com/bootsnipp"><img src="images/bank/agribank.png" alt=""></a>
+                    <a href="https://twitter.com/bootsnipp"><img src="images/bank/donga_bank.png" alt=""></a>
+                    <a href="https://plus.google.com/+Bootsnipp-page"><img src="images/bank/logoacb.png" alt=""></a>
+                    <a href="mailto:bootsnipp@gmail.com"><img src="images/bank/logosacom.png" alt=""></a>
+                    <a href="mailto:bootsnipp@gmail.com"><img src="images/bank/vietcombank.png" alt=""></a>
+                    <a href="mailto:bootsnipp@gmail.com"><img src="images/bank/viettinbank.png" alt=""></a>
+                                          
+                                          </ul>
+                                      </div>
+                                      <h1 class="title-widget" style="margin-top: 40px;">Dịch vụ vận chuyển </h1>
+                      <a href="https://www.facebook.com/bootsnipp"><img src="images/bank/viettel.png" alt=""></a>
+                              </li>
+                                </ul>
+                             </div>
+                      </div>
+      </div>
+      </footer>
+      <!--header-->
+      <div class="wrapper">
+      <div class="container">
+        <div class="b">
+        <h3>Hơn 15.000 điện hoa được chúng tôi chuyển trong năm qua</h3>
+        <p class="desc">Không có một nơi nào tốt hơn để bạn lựa chọn cho một dịch vụ điện hoa chuyên nghiệp ngoài Hoayeuthuong.com. Bằng tất cả niềm đam mê và tận tâm, Hoayeuthuong.com luôn chọn những bông hoa tươi nhất và sáng tạo lên những mẫu hoa tuyệt vời để chuyển đến người thân yêu của bạn cùng với những lời chúc tốt đẹp. Với hơn 15.000 điện hoa được chúng tôi chuyển trong năm qua là một sự khởi đầu cho sự tin tưởng tuyệt vời. Ngoài các dịch vụ hoa tươi, hiểu được thêm nhu cầu của bạn, chúng tôi có liên kết với các hãng có uy tín để cung cấp thêm các dịch vụ như: Bánh sinh nhật, Chocolate, Gấu bông, kẹo ngọt, trái cây...</p>
+        <h3>Cam kết: Nhanh nhất, giá tốt nhất, chất lượng nhất.</h3>
+        <p class="desc">Với sự liên tục cải tiến quy trình, Hoayeuthuong.com nỗ lực đáp ứng trong vòng 2 giờ sẽ giao hoa cho người nhận, chúng tôi là một số ít công ty phục vụ dịch vụ điện hoa cho cả những mẫu hoa có giá từ 100.000đ (5$) mà không có phụ phí gì thêm. Ngoài ra, các mẫu hoa của chúng tôi có xác nhận bảo hành tươi tối thiểu 3 ngày trong điều kiện bình thường.</p>
+        <h3>Trở thành công ty điện hoa số 1 tại Việt Nam</h3>
+        <p class="desc">Với sự đầu tư nghiêm túc, chúng tôi tập trung nâng cao trải nghiệm người dùng (Customer Experience) kể cả trên môi trường trực tuyến và ngoại tuyến để đem lại một dịch vụ hoàn hảo xứng đáng trong nỗ lực trở thành công ty điện hoa số 1 tại Việt Nam.</p>
+        <h3>Cam kết 100% hài lòng</h3>
+        <p class="desc">Với nhiều năm kinh nghiệm phục vụ trong ngành điện hoa, chúng tôi hiểu mức độ quan trọng trong công việc của mình là truyền tải đúng và đủ thông điệp của người tặng đến người nhận. Vì thế chúng tôi cam kết 100% sự hài lòng của khách hàng với chúng dịch vụ của chúng tôi. Với bất cứ điều gì không hài lòng bạn đều được hoàn lại 100% phí dịch vụ đã chuyển cho chúng tôi.</p>
+        <h3>Hoayeuthuong.com là một công ty khởi nghiệp về công nghệ (IT Startup).</h3>
+        <p class="desc">Hoayeuthuong.com được thành lập đầu tiên bởi anh Phạm Hoàng Thái Dương, với mong muốn xây dựng một hệ sinh thái cho ngành hoa tươi tại Việt Nam đựa trên nền tảng Công Nghệ Thông Tin. Việc ứng dụng công nghệ giúp chúng tôi tiết kiệm những quy trình không cần thiết để giảm giá thành sản phẩm và giải quyết được nhiều bài toán lớn về chuỗi cung ứng hoa tươi trên cả nước.</p>
+        <p style="text-align:center">Copyright ©2015, Hoayeuthuong.com, All rights reserved</p>
+        </div>
+        </div>
+        </div>     
 </body>
 
 </html>

@@ -5,3 +5,42 @@
 @media screen and (min-width: 1000px) {...}
 @media screen and (min-width: 1400px) {...}
 /* Menu */
+@media screen and (max-width: 1203px) {
+	.menu-top li:nth-child(5) {
+    display: none;
+   }
+   .menu-top li:nth-child(6) {
+    display: none;
+   }
+   .menu-top li:nth-child(7) {
+    display: none;
+   }
+}
+@media screen and (max-width: 605px) {
+   .menu-top{display: none;}
+}
+/*@media all and (min-width: 736px) and (max-width: 992px) {
+    .ice{height: 260px;}
+}
+@media all and (min-width: 500px) and (max-width: 736px) {
+    .ice{height: 230px;}
+    .ice img{height: 100% !important;}
+
+}*/
+/*@media screen and (min-width: 986px) {
+    .ice{width: 100%;}
+}*/
+@media screen and (max-width: 414px) {
+	.f input[type="submit"] {
+		display: none;
+	}
+}
+@media screen and (max-width: 985px) {
+  .dic-777{display: none;}
+}
+@media screen and (max-width: 987px) {
+	.season{margin:10px 0;}
+}
+@media screen and (max-width: 420px) {
+	.over2{display: none;}
+}
