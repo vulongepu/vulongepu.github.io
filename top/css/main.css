@@ -176,6 +176,7 @@ a:focus {text-decoration: none;}
   text-transform: uppercase;
   border-bottom: 1px solid #cfcfcf;
   padding-bottom:5px;
+      margin: 15px 0px;
 }
 .details p{
   color: #555555;
