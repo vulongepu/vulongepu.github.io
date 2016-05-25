@@ -1,1 +1,20 @@
 argaergea raewrgaerg eargg 
+argaergea raewrgaerg eargg 
+argaergea raewrgaerg eargg 
+argaergea raewrgaerg eargg 
+argaergea raewrgaerg eargg 
+<div class="col-sm-6 col-md-4">
+    	<div class="thumbnail img-center">
+      		<img src="../images/<?php echo $row['image']?>" alt="..." width="100%">
+      		<div class="caption">
+        	<h3><?php echo $row["pro_name"]?></h3>
+	        	<p class="costs"><?php echo $row["price"]?></p>
+	        	<p class="btn-costs"><a href="/index.php?view=detail&id=<?php echo $row['pro_id']?>" class="btn btn-default" role="button">Chi Ti?t</a> 
+            <a href="#" class="btn btn-success" role="button">Mua Ngay</a></p>
+      		</div>
+    	</div>
+  	</div>
+    <?php  } ?>
+</div>
+<img src="sp1.jpg" alt="">
+
