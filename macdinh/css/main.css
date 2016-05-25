@@ -1118,3 +1118,6 @@ a.button, input.button {
 .dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover {
   background-color: red;
 }
+.border-footer{
+  border: 3px solid white;
+}
