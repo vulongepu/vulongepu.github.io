@@ -27,6 +27,72 @@
     <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
 </head>
 <body>
+<header>
+     <div class="container-fluid1">
+      <div class="row1">
+        
+<div class="example3">
+  <nav class="navbar navbar-inverse navbar-static-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar3">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="http://disputebills.com"><img src="images/logo.png" alt="Dispute Bills">
+        </a>
+      </div>
+      <div id="navbar3" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="active"><a href="#">shop</a></li>
+          <li><a href="#">chọn thương hiệu</a></li>
+          <li><a href="#">chăm sóc tóc hằng ngày</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">trị liệu chuyên sâu <span class="caret"></span></a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="#">Action</a></li>
+              <li class="divider"></li>
+              <li><a href="#">Another action</a></li>
+              <li class="divider"></li>
+              <li><a href="#">Something else here</a></li>
+              <li class="divider"></li>
+              <li><a href="#">Separated link</a></li>
+              <li class="divider"></li>
+              <li><a href="#">One more separated link</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Tạo kiểu và giữ nếp</a></li>
+        </ul>
+      </div>
+      <!--/.nav-collapse -->
+    </div>
+    <!--/.container-fluid -->
+  </nav>
+</div>
+
+
+
+      </div>
+    </div>
+    <!-- js #Main -->
+   <script>
+       $(function(){
+        $(".dropdown").hover(            
+                function() {
+                    $('.dropdown-menu', this).stop( true, true ).fadeIn("fast");
+                    $(this).toggleClass('open');
+                    $('b', this).toggleClass("caret caret-up");                
+                },
+                function() {
+                    $('.dropdown-menu', this).stop( true, true ).fadeOut("fast");
+                    $(this).toggleClass('open');
+                    $('b', this).toggleClass("caret caret-up");                
+                });
+        });
+   </script>
+   </header>
     <div class="container-fluid">
        <div class="row">
              <div class="product col-md-3 service-image-left">
@@ -114,5 +180,133 @@
                 <hr>
             </div>
         </div>
+        <div class="clear"></div>
+  <footer class="footer1">
+      <div class="container">
+      <div class="row1"><!-- row -->
+                  <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12"><!-- widgets column left -->
+                  <ul class="list-unstyled clear-margins"><!-- widgets -->
+                          
+                            <li class="widget-container widget_nav_menu"><!-- widgets list -->
+                      
+                                  <h1 class="title-widget">Thông tin</h1>
+                                  
+                            <ul>
+                               <li><a  href="#"> Giới thiệu</a></li>
+                                <li><a  href="#"> Lợi ích khi mua hàng</a></li>
+                                <li><a  href="#"> Thuật ngữ thời trang</a></li>
+                                <li><a  href="#">  Tuyển dụng và hợp tác</a></li>
+                                <li><a  href="#">  Khách hàng mua sỉ</a></li>
+                                <li><a  href="#"> Thương hiệu</a></li>
+                            </ul>
+                      
+                </li>
+                              
+                          </ul>
+                           
+                        
+                  </div><!-- widgets column left end -->
+                  
+                  
+                  
+                  <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12"><!-- widgets column left -->
+              
+                  <ul class="list-unstyled clear-margins"><!-- widgets -->
+                          
+                            <li class="widget-container widget_nav_menu"><!-- widgets list -->
+                      
+                                  <h1 class="title-widget">Hỗ trợ</h1>
+                                  
+                                  <ul>
+                                      <li><a  href="#">Các câu hỏi thường gặp</a></li>
+                                      <li><a  href="#"> Hướng dẫn mua hàng</a></li>
+                                      <li><a  href="#">Hướng dẫn thanh toán</a></li>
+                                      <li><a  href="#"> Giao hàng và trả hàng</a></li>
+                                      <li><a  href="#"> Hướng dẫn chọn size giày</a></li>
+                                      <li><a  href="#"> Hướng dẫn chọn size quần áo</a></li>
+                                      
+                                  </ul>
+                      
+                </li>
+                              
+                          </ul>
+                               
+                            
+                      </div><!-- widgets column left end -->
+                      
+                      
+                      
+                      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12"><!-- widgets column left -->
+                  
+                      <ul class="list-unstyled clear-margins"><!-- widgets -->
+                              
+                                <li class="widget-container widget_nav_menu"><!-- widgets list -->
+                          
+                                      <h1 class="title-widget">Danh mục</h1>
+                                      
+                                      <ul>
+
+
+              <li><a href="#">Giày tây - Giày da</a></li>
+              <li><a href="#"> Giày lười - Giày mọi</a></li>
+              <li><a href="#"> Giày thể thao nam</a></li>
+              <li><a href="#"> Quần áo nam</a></li>
+              <li><a href="#"> Scandal nam</a></li>
+              <li><a href="#">  Đặt hàng giày nam</a></li>
+              <li><a href="#"> Đặt hàng quần áo </a></li>
+
+                                      </ul>
+                          
+                    </li>
+                                  
+                              </ul>
+                               
+                            
+                      </div><!-- widgets column left end -->
+                      
+                      
+                      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 border-footer"><!-- widgets column left -->
+                      <ul class="list-unstyled clear-margins"><!-- widgets -->
+                              
+                                <li class="widget-container widget_nav_menu"><!-- widgets list -->
+                          
+                                      <h1 class="title-widget">Giờ mở của</h1>
+                                      
+                                      <ul>
+                                         <li><a  href="#">Thứ hai : 8h - 17.30</a></li>
+                                       <li><a  href="#">Thứ ba : 8h - 17.30</a></li>
+                                       <li><a  href="#">Thứ tư : 8h - 17.30</a></li>
+                                       <li><a  href="#">Thứ năm : 8h - 17.30</a></li>
+                                       <li><a  href="#">Thứ sáu : 8h - 17.30</a></li>
+                                       <li><a  href="#">Thứ bảy : 8h - 17.30</a></li>
+                                       <li><a  href="#">Chủ nhật : Nghỉ</a></li>
+                                       
+                                      </ul>
+                          
+                    </li>
+                                  
+                              </ul>
+                               
+                            
+                      </div><!-- widgets column left end -->
+                      </div>
+      </div>
+      </footer>
+     <div id="bottom_footer">
+    <div class="container">
+        <div class="social_links">
+            <h3>Kết nối chúng tôi</h3>
+            <ul class="lienket clearfix">
+               <!--  <li class="tw"><a href="http://twitter.com/taruhouse" rel="nofollow" target="_blank"><i class="fa fa-3x fa-twitter-square" aria-hidden="true"></i></a></li> -->
+                <li class="tw"><a href="http://twitter.com/taruhouse" rel="nofollow" target="_blank"><i class="fa fa-3x fa-twitter-square" aria-hidden="true"></i></a></li>
+                <li class="gp"><a href="https://plus.google.com/110756644399327335474" rel="nofollow" target="_blank"><i class="fa fa-3x fa-google-plus-square" aria-hidden="true"></i></a></li>
+                <li class="blog"><a href="blog/"><i class="fa fa-3x fa-users" aria-hidden="true"></i></a></li>
+                <li class="rss"><a href="index.php?route=feed/latest_products_rss"><i class="fa fa-3x fa-rss-square" aria-hidden="true"></i></a></li>    
+                <li class="sm"><a href="sitemap.html"><i class="fa fa-3x fa-sitemap" aria-hidden="true"></i></a></li>             
+            </ul>
+        </div><!-- social_links -->
+        <div class="text-footer">Mua bán online thời trang nam hàng hiệu chính hãng xách tay từ Mỹ (USA). Đồ nam hàng hiệu có sẵn ở Việt Nam, giao hàng miễn phí toàn quốc nhanh chóng. Những mặt hàng giày lười, giày mọi, giày moca nam, giày da công sở, giày tây nam cao cấp, giày thể thao, giày sneaker nam, giày sandal, dép da nam, quần áo nam hàng hiệu, áo polo, áo thun chính hãng, quần kaki, quần jean xách tay, thắt lưng, dây nịt hàng hiệu và đồng hồ chính hãng cao cấp. Nếu bạn có nhu cầu mua hàng ở Mỹ với chi phí giá rẻ từ các website ở Mỹ amazon, macys hoặc thương hiệu tại thị trường USA</div>
+    </div>
+</div>
 </body>
 </html>

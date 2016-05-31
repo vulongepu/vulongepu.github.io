@@ -111,6 +111,9 @@ header .dropdown-menu{
 .navbar {
    margin-bottom: 0px; 
 }
+header{
+  margin-bottom: 20px;
+}
 /* ---------------------------------------------------------------------------- */
 /* ----------------------------------Slider////-------------------------------- */
 /* ---------------------------------------------------------------------------- */
@@ -659,8 +662,8 @@ color: #2E2E2E;
 
 
 section {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    /*padding-top: 100px;*/
+    /*padding-bottom: 100px;*/
 }
 
 .quote {
@@ -751,7 +754,7 @@ text-transform: uppercase;
 /*-------------------------------*/
 /*    Contact.html   */
 /*-------------------------------*/
-/*.jumbotron {
+.jumbotron {
 background: #358CCE;
 color: #FFF;
 border-radius: 0px;
@@ -773,7 +776,7 @@ font-size: 24px;
 .input-group-addon{
   border-radius: 0;
 }
-*/
+
 /* SANPHAM.HTML */
 
 /* CHITIETSANPHAM.HTML */
@@ -789,12 +792,12 @@ font-size: 24px;
 /*********************************************
           PRODUCTS
 *********************************************/
-/*
-.product{
+
+/*.product{
   border: 1px solid #dddddd;
   height: 321px;
 }
-
+*/
 .product>img{
   max-width: 230px;
 }
@@ -816,15 +819,15 @@ font-size: 24px;
   font-size: 22px;
 }
 
-.product-stock{
+/*.product-stock{
   color: #74DF00;
   font-size: 20px;
   margin-top: 10px;
-}
+}*/
 
 .product-info{
     margin-top: 50px;
-}*/
+}
 
 /*********************************************
           VIEW
@@ -912,4 +915,5 @@ font-size: 24px;
 .page-header{
   text-transform: uppercase;
   font-size: 25px;
+  padding-left: 15px;
 }
