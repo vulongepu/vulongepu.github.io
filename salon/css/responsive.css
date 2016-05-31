@@ -12,3 +12,38 @@
 @media screen and (max-width: 380px)  {
 	header .navbar-brand{display: none;}
 }
+@media screen and (max-width: 567px)  {
+	.carousel-control.right {
+    right: 5%;
+   }
+   .carousel-control.left {
+    left: 2%;
+   }
+}
+/* FOOTER BOTTOM */
+@media screen and (max-width: 750px) {
+	#bottom_footer .social_links{width: 100%;margin: 0 auto !important;}
+}
+/* FOOTER BOTTOM */
+/*@media screen and (max-width: 600px) {
+	body{margin:0 10px;}
+}*/
+/* FOOTER BOTTOM */
+@media screen and (max-width: 1000px) {
+	.colum-left{
+		display: none;
+	}
+	.colum-right{
+		width: 100%;
+	}
+}
+@media screen and (max-width: 840px)  {
+   #bottom_footer{
+   	padding-left:10px;
+   	padding-right:10px;
+   }
+}
+
+@media screen and (max-width: 405px)  {
+	.page-title-a h3{display: none;}
+}
