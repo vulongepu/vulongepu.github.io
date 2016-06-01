@@ -1,0 +1,417 @@
+/**
+#DD127B
+ * The main stylesheet for pham kham.
+ *
+ * @package Phongkham
+ * @author  vulongepu
+ * @link  http: //www.websieuviet.com
+ */
+/*--------------------------------------------------------------
+  CSS Overview
+---------------------------------------------------------------
+  1. Reset.
+  2. Header.
+  3. Footer.
+  4. Typography.
+    2.1 Typography.
+    2.2 Elements.
+  
+----------------------------------------------*/
+
+/*--------------------------------------------------------------
+  1. Reset
+--------------------------------------------------------------*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: OpenSans;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {font-size:13px; font-family:OpenSans, Arial, Helvetica, sans-serif; line-height:1.4;}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+a:hover,
+a:focus {text-decoration: none;}
+
+.center{text-align: center; margin: 0 auto;}
+.f-right{float: right;}
+.f-left{float: left;}
+.t-right{text-align: right;}
+.t-left{text-align: left;}
+.clear{
+  width: 100%;
+  clear: both;
+  display: inline-block;
+}
+li{
+  list-style: none;
+}
+.container{
+  max-width: 1000px;
+  /*border: 1px solid red;*/
+}
+.margin{
+  margin-bottom: 25px;
+}
+.margin-t{
+  margin: 25px 0;
+}
+/*--------------------------------------------------------------
+  2. Header
+--------------------------------------------------------------*/
+.tabbable-panel{
+  margin:30px 0;
+}
+.nav-tabs > li > a {
+   border-radius: 0px 0px 0 0; 
+}
+.news{
+  padding: 10px 0;
+}
+.img-news img{
+  max-width:100%;
+}
+.slider{
+  /*position: relative;*/
+  /*display: inline-block;*/
+}
+.child-slider{
+  /*position: absolute;*/
+  /*display: inline-block;*/
+}
+.slider-parent{
+  position: absolute;
+  /*display: inline-block;*/
+  top:0;
+  right: 0;
+  z-index: 999;
+}
+ .img-header{
+  margin-top: 30%;
+ }
+ .navbar-default {
+  background-color: #DD127B;
+  border-color: #e7e7e7;
+}
+.navbar-default .navbar-nav > li > a {
+   color: #FFF; 
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+  color: #000;
+  background-color: #e7e7e7;
+}
+.navbar {
+  border-radius: 0px;
+}
+  /* Search */
+
+
+#custom-search-input {
+        margin:0;
+        margin-top: 10px;
+        padding: 0;
+    }
+ 
+    #custom-search-input .search-query {
+        padding-right: 3px;
+        padding-right: 4px \9;
+        padding-left: 3px;
+        padding-left: 4px \9;
+        /* IE7-8 doesn't have border-radius, so don't indent the padding */
+ 
+        margin-bottom: 0;
+    }
+ 
+    #custom-search-input button {
+        border: 0;
+        background: none;
+        /** belows styles are working good */
+        padding: 2px 5px;
+        margin-top: 2px;
+        position: relative;
+        left: -28px;
+        /* IE7-8 doesn't have border-radius, so don't indent the padding */
+        margin-bottom: 0;
+        color:#D9230F;
+    }
+ 
+    .search-query:focus + button {
+        z-index: 3;   
+    }
+    .form-control{
+      border-radius: 0px;
+    }
+
+.number-phone{
+  color: #DD127B;
+  font-size: 36px;
+  text-align: center;
+}
+.number-phone .fa{
+  margin-right: 5px;
+  color: #5BAC33;
+}
+.title-header h1{
+  font-size: 16px;
+  color: #DD127B;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.title-header h2{
+  font-size: 10px;
+  color: #DD127B;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 3px;
+}
+.title-header {
+  margin-top: 10%;
+}
+
+/* Menu top */
+.caret-up {
+    width: 0; 
+    height: 0; 
+    border-left: 4px solid rgba(0, 0, 0, 0);
+    border-right: 4px solid rgba(0, 0, 0, 0);
+    border-bottom: 4px solid;
+    
+    display: inline-block;
+    margin-left: 2px;
+    vertical-align: middle;
+}
+/*--------------------------------------------------------------
+  3. Footer
+--------------------------------------------------------------*/
+
+.news-footer{
+  background: #FFE2EC;
+}
+.news-footer h1{
+  text-transform: uppercase;
+  font-size: 15px;
+  padding:5px 5px;
+}
+.news-footer h1 a{
+  color: #565656;
+}
+.news-footer h2{
+  font-size: 12px;
+  color:#A3A3A3;
+  padding:5px 10px;
+}
+.news-footer .fa{
+  margin-right: 5px;
+  color: #B27EBC;
+}
+.footer-white{
+  background: white !important;
+}
+.title-footer{
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  padding:10px 0;
+  background: #f55ada;
+  margin-bottom: 10px;
+}
+.menu-footer ul{
+  /*padding:20px 0;*/
+}
+.menu-footer ul li{
+  padding:4px 10px;
+  background: #FE78AB;
+  float: left;
+  margin-right:10px;
+  margin-bottom: 10px;
+}
+.menu-footer ul li a{
+  color: white;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.color-menu{
+  background: #FFCDE0;
+  padding:20px 0;
+}
+
+.menu-footer ul li:hover{
+  background: #DD127B;
+}
+.content-over h1{
+  color: white;
+  font-size: 14px;
+  text-transform: uppercase;
+  display: inline-block;
+  width: 50%;
+}
+
+.content-footer{
+  background: #FE78AB;
+  padding:20px 0;
+}
+.detail-footer{
+  /*height: 70px;*/
+  /*line-height: 70px;*/
+  /*padding:50px 0;*/
+}
+.tags{
+  overflow: hidden;
+}
+.tags li{
+  float: left;
+}
+.tags li a{ 
+   color: white;
+}
+.detail-footer h1{
+  margin-bottom: 10px;
+  width: 70%;
+  padding-top: 25px;
+}
+.detail-footer img{
+  float: left;
+  margin-right: 10px;
+}
+.margin-right{
+  margin-bottom: -45px;
+}
+.first-box{padding:10px;background:#9C0;}
+.second-box{padding:10px; background:#39F;}
+.third-box{padding:10px;background:#F66;}
+.fourth-box{padding:10px;background:#6CC;}
+.marbot .glyphicon{
+   font-size: 25px;
+   padding-bottom: 10px;
+}
+.marbot h3{
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+}
+.marbot p{
+font-size: 18px;
+  font-weight: bold;
+  color: white;
+}
+.img-bot{
+  margin-top: 20px;
+}
+.news{
+  background: url(../images/bgtab_1.jpg);
+  overflow: hidden;
+}
+.news-contact h1{
+  font-size: 17px;
+  color:#D23A6D;
+  font-weight: 700; 
+  margin-bottom: 10px;
+}
+
+.news-contact p{
+  font-size: 13px;
+  color: #2F2F2F;
+  margin-bottom: 20px;
+}
+.title-news a{
+   color: #6B6D6C;
+   font-size: 12px;
+}
+.title-news .fa{
+  color: #F55ADA;
+  font-size: 12px;
+  margin-right: 5px;
+}
+/*--------------------------------------------------------------
+  3. Slider
+--------------------------------------------------------------*/
+.chuyenkhoa li{
+  border-bottom: 1px dotted red;
+  padding-left: 10px;
+}
+.chuyenkhoa li a{
+   text-transform: uppercase;
+   color: #699907;
+   font-size: 15px;
+}
+.ati-chuyenkhoa{
+  text-transform: uppercase;
+  color: #699907;
+  font-weight: 700;
+  padding: 10px 10px;
+  background: #3399FF;
+  text-align: center;
+   font-size: 18px;
+   color: #fff;
+
+}
+.ati-chuyenkhoa .fa{
+  margin-right: 10px;
+}
+
+#myCarousel .carousel-caption {
+    left:0;
+  right:0;
+  bottom:0;
+  text-align:left;
+  padding:10px;
+  background:rgba(0,0,0,0.6);
+  text-shadow:none;
+}
+
+#myCarousel .list-group {
+  position:absolute;
+  top:0;
+  right:0;
+}
+#myCarousel .list-group-item {
+  border-radius:0px;
+  cursor:pointer;
+}
+#myCarousel .list-group .active {
+  background-color:#eee;  
+}
+
+@media (min-width: 992px) { 
+  #myCarousel {padding-right:33.3333%;}
+  #myCarousel .carousel-controls {display:none;}  
+}
+@media (max-width: 991px) { 
+  .carousel-caption p,
+  #myCarousel .list-group {display:none;} 
+}
