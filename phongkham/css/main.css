@@ -415,3 +415,6 @@ font-size: 18px;
   .carousel-caption p,
   #myCarousel .list-group {display:none;} 
 }
+#myCarousel h4{
+  color: #D23A6D;
+}
