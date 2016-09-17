@@ -52,34 +52,7 @@ body {
   color: #0d0d0d;
   overflow-x: hidden;
 }
-.col-xs-5ths, .col-sm-5ths, .col-md-5ths, .col-lg-5ths {
-    position: relative;
-    min-height: 1px;
-    padding-right: 10px;
-    padding-left: 10px;
-}
-.col-xs-5ths {
-    width: 20%;
-    float: left;
-}
-@media (min-width: 768px) {
-    .col-sm-5ths {
-        width: 20%;
-        float: left;
-    }
-}
-@media (min-width: 992px) {
-    .col-md-5ths {
-        width: 20%;
-        float: left;
-    }
-}
-@media (min-width: 1200px) {
-    .col-lg-5ths {
-        width: 20%;
-        float: left;
-    }
-}
+
 /* ==========================================================================
 Typography
 ========================================================================== */
@@ -253,9 +226,108 @@ Content
 .list-product .fa{
   margin-right: 5px;
 }
+/***
+Bootstrap Line Tabs by @keenthemes
+A component of Metronic Theme - #1 Selling Bootstrap 3 Admin Theme in Themeforest: http://j.mp/metronictheme
+Licensed under MIT
+***/
+
+/* Tabs panel */
+.tabbable-panel {
+  border:1px solid #eee;
+  /*padding: 10px;*/
+}
+
+/* Default mode */
+.tabbable-line > .nav-tabs {
+  border: none;
+  margin: 0px;
+}
+.tabbable-line > .nav-tabs > li {
+  margin-right: 2px;
+}
+.tabbable-line > .nav-tabs > li > a {
+  border: 0;
+  margin-right: 0;
+  color: #737373;
+}
+.tabbable-line > .nav-tabs > li > a > i {
+  color: #a6a6a6;
+}
+.tabbable-line > .nav-tabs > li.open, .tabbable-line > .nav-tabs > li:hover {
+  border-bottom: 4px solid #fbcdcf;
+}
+.tabbable-line > .nav-tabs > li.open > a, .tabbable-line > .nav-tabs > li:hover > a {
+  border: 0;
+  background: none !important;
+  color: #333333;
+}
+.tabbable-line > .nav-tabs > li.open > a > i, .tabbable-line > .nav-tabs > li:hover > a > i {
+  color: #a6a6a6;
+}
+.tabbable-line > .nav-tabs > li.open .dropdown-menu, .tabbable-line > .nav-tabs > li:hover .dropdown-menu {
+  margin-top: 0px;
+}
+.tabbable-line > .nav-tabs > li.active {
+  border-bottom: 4px solid #f3565d;
+  position: relative;
+}
+.tabbable-line > .nav-tabs > li.active > a {
+  border: 0;
+  color: #333333;
+}
+.tabbable-line > .nav-tabs > li.active > a > i {
+  color: #404040;
+}
+.tabbable-line > .tab-content {
+  margin-top: -3px;
+  background-color: #fff;
+  border: 0;
+  border-top: 1px solid #eee;
+  padding: 15px 0;
+}
+.portlet .tabbable-line > .tab-content {
+  padding-bottom: 0;
+}
+
+/* Below tabs mode */
+
+.tabbable-line.tabs-below > .nav-tabs > li {
+  border-top: 4px solid transparent;
+}
+.tabbable-line.tabs-below > .nav-tabs > li > a {
+  margin-top: 0;
+}
+.tabbable-line.tabs-below > .nav-tabs > li:hover {
+  border-bottom: 0;
+  border-top: 4px solid #fbcdcf;
+}
+.tabbable-line.tabs-below > .nav-tabs > li.active {
+  margin-bottom: -2px;
+  border-bottom: 0;
+  border-top: 4px solid #f3565d;
+}
+.tabbable-line.tabs-below > .tab-content {
+  margin-top: -10px;
+  border-top: 0;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 15px;
+}
+.list-product .active a {
+  background: #000;
+} 
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
+  background-color: #f26722;
+}
+.tabbable-line > .nav-tabs > li.active > a {
+  color: #fff;
+}
+.fa-list{
+  color: #fff !important;
+}
 /* Product*/
 #product{
-  padding:0 -15px;
+  margin:0 -15px;
 }
 /*#product .col-md-2{
   width: 17%;
@@ -338,11 +410,12 @@ Content
   position: absolute;
   bottom: -63px;
   margin-left: 148px;
+  /*margin-bottom: 0px;*/
 }
 .detail-footer li{
   margin:10px;
   font-size: 15px;
-  font-weight: 600;
+  /*font-weight: 600;*/
 }
 .detail-footer .fa{
   margin-right: 25px;
@@ -352,6 +425,9 @@ Content
   color: #f26722;
   font-size: 23px;
 }
+.detail-footer strong{
+  font-weight: bold;
+}
 /*doitac*/
 
     /* ==========================================================================
@@ -359,7 +435,7 @@ Footer
 ========================================================================== */
 .img-footer img{
   /*padding: 20px;*/
-  width: 100%;
+  /*width: 100%;*/
 }
 .footer-top-left span{
   font-size: 20px;
@@ -441,7 +517,63 @@ Footer
       height: auto;
     }
 
+   .navbar-collapse.in {
+    overflow-y: visible;
+}
 
-@media (max-width: 992px) {
-  
+/* ************************************ chitiet.html *************************** */
+.panel-default > .panel-heading {
+  color: #333;
+  background-color: #F26722;;
+  border-color: #F26722;
+}
+.list-menu .panel{
+  border-radius: 0;
+}
+.list-menu .panel-heading {
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+}
+.list-menu .fa{
+  margin-right: 5px;
+}
+.detail-product {
+  border-bottom: 1px solid #cfcfcf;
+  overflow: hidden;
+  padding-bottom: 20px;
+}
+.product-detail span{
+  color: #F26722;
+}
+.product-detail h4{
+  margin: 10px;
+}
+
+.detail-product span{
+  font-size: 45px;
+  color: #f26722;
+}
+.detail-product h5{
+  font-size: 17px;
+  margin: 10px;
+}
+.detail-product strong{
+  font-size: 19px 0;
+}
+.detail-product h4{
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+.detail-product .fa{
+  margin-right:10px;
+}
+.detail-product-list h4{
+  margin: 20px 0;
+  text-align: left;
+}
+.detail-product-list h6{
+  text-align: left;
+}
+.detail-product-list{
+   text-align: center;
 }
