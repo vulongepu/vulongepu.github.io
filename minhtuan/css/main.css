@@ -100,6 +100,9 @@ p {
   color: #000;
   font-weight: 400;
 }
+a{
+  text-decoration: none !important;
+}
 .clear{
   width: 100%;
   clear: both;
@@ -233,10 +236,6 @@ Licensed under MIT
 ***/
 
 /* Tabs panel */
-.tabbable-panel {
-  border:1px solid #eee;
-  /*padding: 10px;*/
-}
 
 /* Default mode */
 .tabbable-line > .nav-tabs {
@@ -283,8 +282,6 @@ Licensed under MIT
   margin-top: -3px;
   background-color: #fff;
   border: 0;
-  border-top: 1px solid #eee;
-  padding: 15px 0;
 }
 .portlet .tabbable-line > .tab-content {
   padding-bottom: 0;
@@ -429,7 +426,13 @@ Licensed under MIT
   font-weight: bold;
 }
 /*doitac*/
-
+.doitac{
+ 
+}
+.tieuchuan img{
+  height: 90px;
+  width: 90px;
+}
     /* ==========================================================================
 Footer
 ========================================================================== */
@@ -537,6 +540,12 @@ Footer
 .list-menu .fa{
   margin-right: 5px;
 }
+.product{
+  padding-bottom: 10px;
+}
+.product img{
+  padding-top: 10px;
+}
 .detail-product {
   border-bottom: 1px solid #cfcfcf;
   overflow: hidden;
@@ -577,3 +586,51 @@ Footer
 .detail-product-list{
    text-align: center;
 }
+#zoom_01{
+  width: 100%;
+  padding-top: 10px;
+}
+ #owl-demo .item{
+        margin: 3px;
+    }
+    #owl-demo .item img{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    
+    
+.col-md-5ths:hover{
+  background: #F26722;
+  /*color: white !important;*/
+}
+.col-md-5ths:hover .product p{
+  color: white;
+}
+.col-md-5ths:hover .product h4{
+  color: white;
+}
+.col-md-5ths:hover .product h5{
+  color: white;
+}
+.col-md-5ths:hover .product span{
+  color: white;
+}
+.doitac-title{
+  width: 100%;
+  border-bottom: 1px solid #ececec;
+  text-transform: uppercase;
+  margin: 20px 0;
+  padding:10px 0;
+}
+.doitac-title p{
+  color: #F26722;
+  font-weight: bold;
+}
+.xemthem{
+  font-size: 17px;
+  font-weight: 500;
+  color: #282828;
+  padding: 10px 0;
+}
+.adw{margin: 20px 0}

@@ -1,0 +1,110 @@
+.botsify-block{
+	padding: 35px 0;
+	max-width:950px;
+	margin:auto;
+	line-height:24px;
+}
+.text-bot{
+	font-family:'Roboto', sans-serif;
+	font-size:30px;
+	line-height:25px;
+}
+.botsify-block-icons{
+	padding: 30px 0;
+}
+.botsify-btn{
+	background-color: #3db2d0;
+	text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    color: white;
+    padding:10px 30px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+}
+.call-to-action{
+  background-color: #3db2d0;
+	text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  color: white;
+  padding:0px 5px;
+  font-family: 'Open Sans';
+  font-weight: 400;
+}
+.call-to-action:hover{
+  text-decoration: none;
+  color: white !important;
+}
+.botsify-btn:hover {
+	text-decoration: none;
+}
+.start{
+	font-size: 20px;
+	padding-left:40px;
+	padding-right:40px;  
+}
+#owl-bot .item img{
+	min-height: 700px;
+	height: 700px;
+	width: 100%
+}
+.bot-item{
+	margin-bottom: 50px;
+	color:#434343;
+}
+@media (max-width:768px){
+    p,a{
+    	font-size: 10px;
+    }
+    h1{
+    	font-size: 24px;
+    }
+    .tagline h1{
+    	font-size: 2.5em;
+    }
+    .botsify-btn{
+    padding:10px 20px;
+	}
+	.bot-logo img{
+		width: 70%;
+	}
+
+}
+
+footer{
+	background: #333;
+	padding-top:40px;
+}
+footer .nav.nav-pills a{
+	background: transparent;
+	color:white;
+}
+footer .nav.nav-pills a:hover{
+	background: transparent;
+	color:#16B1B5;
+	text-decoration: none;
+}
+footer hr{
+	border-top: 1px solid #555;
+}
+
+.margin-top-bottom-150px{
+  margin-top:150px;
+  margin-bottom:150px;
+}
+.margin-top-bottom-100px{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+#owl-media,#owl-clients{
+  margin-top:40px;
+  margin-bottom:30px;
+}
+
+#owl-media img,#owl-clients img{
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+}

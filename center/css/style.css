@@ -1,0 +1,92 @@
+/*
+Theme Name: Polo
+Theme URI: http://magikcommerce.com/
+Author: MagikCommerce
+Author URI: https://www.magikcommerce.com/
+Description:  Polo HTML Template
+Version: 1.4
+License: GNU General Public License v2 or later
+Tags: two-columns, left-sidebar, fixed-layout, responsive-layout, custom-background, custom-colors, custom-header, custom-menu
+Text Domain:  Polo
+*/
+/* TABLE OF CONTENTS
+
+1.	Body
+
+2.	Layout 
+
+3.	Header
+
+4.	Navigation
+
+5.  Header Service
+
+6.  Offer Banner
+
+7.  New & Sale Label
+
+8.  products View page
+
+9.  Rating
+
+10. Price
+
+11. blog-post
+
+12. To top
+
+13. Mob Menu
+
+14. Products slider
+
+15. Breadcrumbs
+
+16. Sidebar
+
+17. Category Description
+
+18. View Type: Grid
+
+19. View Type: List
+
+20. One Page checkout
+
+21. Dashboard 
+
+22. Global Styles 
+
+23. Data Table 
+
+24. Wishlist Table 
+
+25. Progress Bar
+
+26. 404 Page
+
+27. Footer
+
+28. Responsive
+
+
+/*----------- 1. Body --------------*/
+body {
+	font-size: 12px;
+}
+a {
+	color: #333;
+	text-decoration: none;
+}
+a:hover, a:focus {
+	color: #23527c;
+	text-decoration: none;
+}
+ul, ol {
+	padding: 0px;
+	margin: auto;
+	list-style: none;
+}
+legend {
+	display: none;
+}
+
+/*------------ 2. Layout ----------*/

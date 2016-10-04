@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>test</title>
+  <link rel="stylesheet" href="js/jquery-1.9.1.min.js">
+  <script src="js/jquery-1.9.1.min.js"></script>
+  <!-- <script language="javascript" src="http://code.jquery.com/jquery-2.0.0.min.js"></script> -->
+</head>
+<style>
+  h1{
+    width: 100%;
+    background: red;
+  }
+</style>
+<body>
+   <div id="content1">
+      <h1>CHAO MUNG CAC BAN</h1>
+   </div>
+   <div id="content2">
+      <h1>WELCOME</h1>
+   </div>
+   <input type="button" value="hoan doi" id="button">
+   <script language="javascript">
+      $(document).ready(function() 
+      {
+        $('#button').click(function(){
+          var content1 = $('#content1').html();
+          var content2 = $('#content2').html();
+          $('#content1').html(content2);
+          $('#content2').html(content1);
+        });
+      });
+   </script>
+
+</body>
+</html>
