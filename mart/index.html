@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+    <title>Html Template</title>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+
+    <!-- Bootstrap Css -->
+    <link href="bootstrap-assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Style -->
+    <link href="plugins/animate.css/animate.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    <!-- Icons Font -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+    <header>
+            <div class="top-header">
+            <div class="info-top col-md-6">
+              <ul>
+                <li><a href="#">Payment and Delivery</a></li>
+                <li><a href="#">Faq</a></li>
+                <li><a href="">Contact</a></li>
+                <li>&nbsp;<i class="fa fa-phone"></i> + 0123-456-789</li>
+              </ul>
+            </div>
+            <div class="info-top col-md-6 text-right">
+              <ul>
+                <li><a href="#" class="link"><i class="icon-star icon-large"></i>Favorites</a></li>
+                <li> <a href="#" class="link"><i class="icon-user icon-large"></i>My Account</a> </li>
+              </ul>
+            </div>
+          </div>
+
+          <section class="shop-section ">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-3 col-md-12 col-xs-12 mobile-center">
+                  <div class="blog-logo text-left"><a href="index.html"> <img src="img/shop-logo.png" alt="logo"></a></div>
+                </div>
+                <div class="col-md-6  col-xs-12 mobile-center">
+                  <div class="input-group top-search">
+                    <div class="input-group-btn search-panel">
+                      <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"> <span id="search_concept">Filter by</span> <span class="caret"></span> </button>
+                      <ul class="dropdown-menu" role="menu">
+                        <li><a href="#contains">Contains</a></li>
+                        <li><a href="#its_equal">It's equal</a></li>
+                        <li><a href="#greather_than">Greather than </a></li>
+                        <li><a href="#less_than">Less than </a></li>
+                        <li class="divider"></li>
+                        <li><a href="#all">Anything</a></li>
+                      </ul>
+                    </div>
+                    <input type="hidden" name="search_param" value="all" id="search_param">
+                    <input type="text" class="form-control" name="x" placeholder="Search term...">
+                    <span class="input-group-btn">
+                    <button class="btn btn-default" type="button"><span class="fa fa-search"></span></button>
+                    </span> </div>
+                </div>
+                        <div class="col-md-3 col-xs-12 text-right mobile-center">
+                          <div class="popover-shorty"> <a href="/"> <span class="qty-top-cart-active">3</span> <i class="fa fa-shopping-cart"></i> </a>
+                            <div class="popover popover-cart bottom">
+                              <div class="media"> <a href="#" class="media-left"> <img src="media/item/4/1.jpg" width="600" height="700" alt=""> </a>
+                                <div class="media-body">
+                                  <div class="entry-header">
+                                    <h5 class="entry-title"><a href="#">Phasellus vehicula</a></h5>
+                                  </div>
+                                  <div class="entry-meta">
+                                    <div class="price-box"> <span class="price-regular-single">$220.00</span> <span class="price-reduction">70%</span> </div>
+                                    <div class="qty-cart">Quantity: 23</div>
+                                  </div>
+                                  <div class="del-cart-item"> <i class="fa fa-times"></i> </div>
+                                </div>
+                              </div>
+                              <div class="media"> <a href="#" class="media-left"> <img src="media/item/4/2.jpg" width="600" height="700" alt="img"> </a>
+                                <div class="media-body">
+                                  <div class="entry-header">
+                                    <h5 class="entry-title"><a href="#">Phasellus vehicula</a></h5>
+                                  </div>
+                                  <div class="entry-meta">
+                                    <div class="price-box"> <span class="price-regular-single">$540.00</span> </div>
+                                    <div class="qty-cart">Quantity: 11</div>
+                                  </div>
+                                  <div class="del-cart-item"> <i class="fa fa-times"></i> </div>
+                                </div>
+                              </div>
+                              <div class="media"> <a href="#" class="media-left"> <img src="media/item/4/4.jpg" width="600" height="700" alt="img"> </a>
+                                <div class="media-body">
+                                  <div class="entry-header">
+                                    <h5 class="entry-title"><a href="#">Phasellus vehicula</a></h5>
+                                  </div>
+                                  <div class="entry-meta">
+                                    <div class="price-box"> <span class="price-regular-single">$120.00</span> <span class="price-old">$700.00</span></div>
+                                    <div class="qty-cart">Quantity: 1</div>
+                                  </div>
+                                  <div class="del-cart-item"> <i class="fa fa-times"></i> </div>
+                                </div>
+                              </div>
+                              <div class="panel-footer">
+                                <div class="row text-center">
+                                  <div class="col-xs-7 text-left"> Cart Subtotal: </div>
+                                  <div class="col-xs-5 text-right"> $ 1232.00 </div>
+                                </div>
+                              </div>
+                              <div class="panel-footer">
+                                <div class="row text-center">
+                                  <div class="col-xs-7 text-left"> Shipping: </div>
+                                  <div class="col-xs-5 text-right"> $ 12.00 </div>
+                                </div>
+                              </div>
+                              <div class="panel-footer">
+                                <div class="row text-center"> <a class=" btn btn-cart" href="cart"> Checkout</a>
+                                  <button class=" btn btn-danger" type="button"> View Cart </button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="popover-shorty"> <a href="/"><i class="fa fa-truck"></i> </a>
+                            <div class="popover bottom">
+                              <div class="arrow"></div>
+                              <h3 class="popover-title">Reliable delivery</h3>
+                              <div class="popover-content"> Sed posuere consectetur est at lobortis. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. </div>
+                            </div>
+                          </div>
+                          <div class="popover-shorty"> <a href="/"><i class="fa fa-thumbs-o-up"></i> </a>
+                            <div class="popover bottom">
+                              <div class="arrow"></div>
+                              <h3 class="popover-title">Quality guarantee</h3>
+                              <div class="popover-content"> Sed posuere consectetur est at lobortis. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. </div>
+                            </div>
+                          </div>
+                          <div class="popover-shorty"> <a href="/"><i class="fa fa-facebook"></i> </a>
+                            <div class="popover bottom">
+                              <div class="arrow"></div>
+                              <h3 class="popover-title">Facebook follow </h3>
+                              <div class="popover-content"> Sed posuere consectetur est at lobortis. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+
+                  <!-- ******************************* -->
+                  <div class="navbar yamm navbar-default">
+    <div class="container">
+      <div class="navbar yamm navbar-default">
+        <div class="container">
+          <nav id="navbar-collapse-1" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="shop.html">Shop Page</a></li>
+              <li><a href="landing.html">Landing  Page</a></li>
+              <li><a href="catalog.html">Catalog  Page</a></li>
+              <li><a href="product.html">Product  Page</a></li>
+              <li><a href="blog.html">Blog Page</a></li>
+              <li><a href="post.html">Post  Page</a></li>
+              <!-- Classic dropdown -->
+              <li class="dropdown yamm-classic"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Classic<b class="caret"></b></a>
+                <ul class="dropdown-menu ">
+                  <li><a href="#"> QUECHUA FORCLAZ 500 SOFTSHELL HIKING WEAR </a></li>
+                  <li><a href="#"> FORCLAZ GOFTSHELL HIKING WEAR</a></li>
+                  <li><a href="#"> SOFTSHELL HIKING 300 WEAR </a></li>
+                  <li><a href="#"> Paenitet me789 quod tultus plastic</a></li>
+                  <li><a href="#"> FORCLAZ 500 SOFTSHELL HIKING WEAR</a></li>
+                  <li><a href="#"> QUECHUA FORCLAZ 500LL HIKING WEAR</a> </li>
+                </ul>
+              </li>
+              <!-- Pictures -->
+              <li class="dropdown yamm-fw"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Mega Menu<b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <div class="yamm-content">
+                      <div class="row">
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                          <h5> SPORTS &amp; FITNESS </h5>
+                          <ul>
+                            <li> <a href="#"> Bicycles &amp; Accessories</a></li>
+                            <li> <a href="#">Badminton</a></li>
+                            <li> <a href="#">Fitness Accessories</a></li>
+                            <li> <a href="#">Fitness Equipment</a></li>
+                            <li> <a href="#">Outdoor Adventure Gear</a></li>
+                            <li> <a href="#">Active Wear</a></li>
+                            <li> <a href="#">Swimming Equipments</a></li>
+                            <li> <a href="#">Water Sports</a></li>
+                          </ul>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                          <h5> NUTRITION</h5>
+                          <ul>
+                            <li> <a href="#"> Top Proteins</a></li>
+                            <li> <a href="#">JSB Massagers</a></li>
+                            <li> <a href="#">Horlicks</a></li>
+                            <li> <a href="#">AccuChek</a></li>
+                            <li> <a href="#">Omron BP Monitors</a></li>
+                            <li> <a href="#">Herbalife Protein</a></li>
+                            <li> <a href="#">Apollo Munich</a></li>
+                            <li> <a href="#">Weight Gainers</a></li>
+                          </ul>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                          <h5> NEW ARRIVALS</h5>
+                          <ul>
+                            <li> <a href="#">Heart &amp; Blood Pressure</a></li>
+                            <li> <a href="#">Weighing Scale &amp; Daily Needs</a></li>
+                            <li> <a href="#">Massagers</a></li>
+                            <li> <a href="#">Supports &amp; Rehabilitation</a></li>
+                            <li> <a href="#">Sexual WellnessHOT</a></li>
+                            <li> <a href="#">Shop Privately At Home</a></li>
+                            <li> <a href="#">E-Cigarette &amp; E-Shisha</a></li>
+                            <li> <a href="#">Alternative Health Therapy</a></li>
+                          </ul>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12"> <a href="#" class="thumbnail"><img src="media/menu/promo.jpg" width="270" height="270" alt="img"></a> </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12"> <a href="#" class="thumbnail"> <img src="media/menu/pormo2.jpg" width="350" height="140" alt="img"> </a> </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12"> <a href="#" class="thumbnail"> <img src="media/menu/pormo3.jpg" width="350" height="140" alt="img"> </a> </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12"> <a href="#" class="thumbnail"> <img src="media/menu/pormo4.jpg" width="350" height="140" alt="img"> </a> </div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script>
+      $(document).on('hover', '.yamm .dropdown-menu', function(e) {
+  e.stopPropagation()
+})
+  </script>
+    </header>
+    <div id="content">
+    <link rel="stylesheet" href="plugins/iview/css/iview.css" />
+<link rel="stylesheet" href="plugins/iview/css/skin/style2.css" />
+<script src="plugins/iview/js/iview.js"></script> 
+        <div id="iview">
+  <div data-iview:thumbnail="img/2.jpg" data-iview:image="img/2.jpg" data-iview:transition="block-drop-random" data-iview:pausetime="2000">
+    <div class="container">
+      <div class="iview-caption text-center bg-no-caption" data-x="280" data-y="180" data-transition="expandUp">
+        <h3>mountain bikes</h3>
+        <p> FINE TUNED, SLEEK & SMOOTH, THIS SLIDER WILL IMPRESS YOUR VISITORS</p>
+        <a href="#banner01" class="btn">EXPLORE NOW</a> </div>
+    </div>
+  </div>
+  <div data-iview:thumbnail="img/3.jpg" data-iview:image="img/3.jpg">
+    <div class="container">
+      <div class="iview-caption text-center bg-no-caption" data-x="280" data-y="180" data-transition="expandUp">
+        <h3>xTreme-Bikes</h3>
+        <p> FINE TUNED, SLEEK & SMOOTH, THIS SLIDER WILL IMPRESS YOUR VISITORS</p>
+        <a href="#banner01" class="btn">EXPLORE NOW</a> </div>
+    </div>
+  </div>
+  <div data-iview:thumbnail="img/4.jpg" data-iview:image="img/4.jpg">
+    <div class="container">
+      <div class="iview-caption text-center bg-no-caption" data-x="280" data-y="180" data-transition="expandUp">
+        <h3>xTreme-Sports</h3>
+        <p> FINE TUNED, SLEEK & SMOOTH, THIS SLIDER WILL IMPRESS YOUR VISITORS</p>
+        <a href="#banner01" class="btn">EXPLORE NOW</a> </div>
+    </div>
+  </div>
+</div>
+    </div>
+    <div id="banner01" class="banner-full-width primary-color">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 text-right">
+        <h3>GET FREE SHIPPING WHEN YOU SPEND JUST $30 OR MORE!</h3>
+        <h5>WE WILL SHIP YOUR ITEM WITHIN 2 DAYS</h5>
+      </div>
+      <div class="col-lg-2 text-left"> <a class="btn" href="/">SHOP NOW</a> </div>
+      <div class="col-lg-2 text-right"></div>
+    </div>
+  </div>
+</div>
+    <footer></footer>  
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap-assets/js/bootstrap.min.js"></script>
+    <!-- JS PLUGINS -->
+    <script src="js/main.js"></script>
+    <script src="js/jquery-1.9.1.min.js"></script>
+    <script src="plugins/iview/js/iview.js"></script>
+</body>
+
+</html>
