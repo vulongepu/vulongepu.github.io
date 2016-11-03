@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>School</title>
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="mightyslider/src/css/mightyslider.css"/>
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+		<header class="header-container">
+		<div class="header-top">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6 col-md-6 col-sm-5 col-xs-9">
+						<div class="phone">
+							<div class="phone-box"><strong>Hotline:</strong> <span>(04).1234.5678</span></div>
+						</div>
+						<div class="welcome-msg hidden-xs"> Chào mừng đến với Du Học Toàn Cầu </div>
+					</div>
+					<div class="col-lg-6 col-md-6 col-sm-7 col-xs-3">
+											
+						
+						<!-- Header Top Links -->
+						<div class="toplinks">
+							<div class="links">
+								<div class="login">
+									<a title="Đăng nhập" href="/account/login"><span class="hidden-xs">Đăng nhập</span></a>
+								</div>
+							</div>
+						</div>
+						
+
+						<div class="collapse navbar-collapse">
+							<form action="/search" method="get" class="navbar-form form_search_index">
+								<div class="input-group">
+									<input value="" maxlength="70" name="query" id="search" class="form-control block_in" placeholder="Tìm kiếm" type="text">
+									<span class="input-group-btn">
+										<button type="submit" class="btn btn-default"> <span class="glyphicon glyphicon-search"> <span class="sr-only">Tìm kiếm</span> </span> </button>
+									</span> 
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- End header -->
+<nav class="navbar navbar-default">
+  <div class="container">
+   <div class="row">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#"><img alt="Cổng thông tin du học" src="images/logo.png"></a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li ><a href="#">Trang chủ</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+           <ul class="dropdown-menu">
+            <li><a href="gioithieu.html">Giới thiệu</a></li>
+          </ul>
+        </li>
+        <li ><a href="tintuc.html">Tin tức du học</a></li>
+        <li ><a href="dangki.html">Đăng ký</a></li>
+        <li ><a href="lienhe.html">Liên hệ</a></li>
+
+      </ul>
+    </div><!-- /.navbar-collapse -->
+    </div>
+  </div><!-- /.container-fluid -->
+</nav>
+<!-- End header -->
+<div class="breadcrumbs">
+	<div class="container">
+		<div class="row">
+			<ul>
+				<li class="home"> <a href="/" title="Go to Home Page">Trang chủ</a><span>—›</span></li>
+				
+				<li><strong>Liên hệ</strong></li>
+				
+			</ul>
+		</div>
+	</div>
+</div>
+<div class="main-container col2-right-layout">
+	<div class="main container">
+		<div class="row">
+			<section class="col-main col-sm-6 wow bounceInUp animated animated" style="visibility: visible;">
+				<div class="page-title">
+					<h2>Liên hệ</h2>
+				</div>
+				<form accept-charset="UTF-8" action="/contact" id="contact" method="post">
+<input name="FormType" value="contact" type="hidden">
+<input name="utf8" value="true" type="hidden">
+				<div class="static-contain" style="margin-bottom: 20px">
+					<fieldset class="group-select">
+						<ul>
+							<li id="billing-new-address-form">
+								<fieldset>
+									<ul>
+										<li>
+											<div class="customer-name">
+												<div class="input-box name-firstname">
+													<label for=""> Họ tên<span class="required">*</span></label>
+													<br>
+													<input id="name" name="contact[Name]" value="" title="Họ tên" class="input-text " type="text">
+												</div>
+											</div>
+										</li>
+										<li>
+											<div class="customer-name">
+												<div class="input-box name-firstname">
+													<label for=""> Email<span class="required">*</span></label>
+													<br>
+													<input id="name" name="contact[Email]" value="" title="Họ tên" class="input-text " type="text">
+												</div>
+											</div>
+										</li>
+										<li class="">
+											<label for="comment">Nội dung<em class="required">*</em></label>
+											<br>
+											<div style="float:none" class="">
+												<textarea id="message" name="contact[Body]" title="Comment" class="required-entry input-text" cols="45" rows="2"></textarea>
+											</div>
+										</li>
+									</ul>
+								</fieldset>
+							</li>
+							<p class="require"><em class="required">* </em>Bắt buộc</p>
+							<input name="hideit" id="hideit" value="" style="display:none !important;" type="text">
+							<div class="buttons-set">
+								<button type="submit" title="Submit" class="button submit"> <span> Gửi </span> </button>
+							</div>
+						</ul>
+					</fieldset>
+				</div>
+				</form>
+			</section>
+			<section class="col-sm-6 wow bounceInUp animated animated" style="visibility: visible;">
+				<div id="map_address">&nbsp;<input class="map_latitude_1929 LatHeadOffice" value="21,0376433289873" hidden=""><input class="map_longtitude_1929 LngHeadOffice" value="105,813853740692" hidden=""><table id="cph_Main_ctl00_ctl00_dlGoogleMap" style="border-collapse:collapse;margin-left: 15px" cellspacing="0"><tbody><tr><td><div class="addr" style="color: #000000;font-size:11pt">1.<a href="#" style="margin-left: 5px;color: #000000" onclick="moveToMaker(1929); return false;">442 đội cấn ba đình hà nội</a></div> </td></tr></tbody></table></div>
+				<p><input id="y" type="hidden"></p>
+				<div style="position: relative;">
+					<div id="map_canvas" style="width: 100%; height: 500px; position: relative; overflow: hidden;"><div style="height: 100%; width: 100%; position: absolute; background-color: rgb(229, 227, 223);"><div style="position: absolute; left: 0px; top: 0px; overflow: hidden; width: 100%; height: 100%; z-index: 0;" class="gm-style"><div style="position: absolute; left: 0px; top: 0px; overflow: hidden; width: 100%; height: 100%; z-index: 0; cursor: url(&quot;https://maps.gstatic.com/mapfiles/openhand_8_8.cur&quot;), default;"><div style="position: absolute; left: 0px; top: 0px; z-index: 1; width: 100%;"><div style="position: absolute; left: 0px; top: 0px; z-index: 100; width: 100%;"><div style="position: absolute; left: 0px; top: 0px; z-index: 0;"><div style="position: absolute; left: 0px; top: 0px; z-index: 1; visibility: inherit;" aria-hidden="true"><div style="width: 256px; height: 256px; position: absolute; left: 19px; top: -117px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 19px; top: 139px;"></div><div style="width: 256px; height: 256px; position: absolute; left: -237px; top: -117px;"></div><div style="width: 256px; height: 256px; position: absolute; left: -237px; top: 139px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 275px; top: -117px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 275px; top: 139px;"></div></div></div></div><div style="position: absolute; left: 0px; top: 0px; z-index: 101; width: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 102; width: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 103; width: 100%;"><div style="position: absolute; left: 0px; top: 0px; z-index: -1;"><div style="position: absolute; left: 0px; top: 0px; z-index: 1; visibility: inherit;" aria-hidden="true"><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 19px; top: -117px;"><canvas draggable="false" style="-moz-user-select: none; position: absolute; left: 0px; top: 0px; height: 256px; width: 256px;" height="256" width="256"></canvas></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 19px; top: 139px;"><canvas draggable="false" style="-moz-user-select: none; position: absolute; left: 0px; top: 0px; height: 256px; width: 256px;" height="256" width="256"></canvas></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: -237px; top: -117px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: -237px; top: 139px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 275px; top: -117px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 275px; top: 139px;"></div></div></div></div><div style="position: absolute; z-index: 0; left: 0px; top: 0px;"><div style="overflow: hidden; width: 460px; height: 350px;"><img style="width: 460px; height: 350px;" src="https://maps.googleapis.com/maps/api/js/StaticMapService.GetMapImage?1m2&amp;1i13319661&amp;2i7385205&amp;2e1&amp;3u16&amp;4m2&amp;1u460&amp;2u350&amp;5m5&amp;1e0&amp;5sfr&amp;6sus&amp;10b1&amp;12b1&amp;token=76502"></div></div><div style="position: absolute; left: 0px; top: 0px; z-index: 0;"><div style="position: absolute; left: 0px; top: 0px; z-index: 1; visibility: inherit;" aria-hidden="true"><div style="position: absolute; left: 19px; top: -117px; transition: opacity 200ms ease-out 0s;"><img style="position: absolute; left: 0px; top: 0px; width: 256px; height: 256px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i16!2i52030!3i28848!4i256!2m3!1e0!2sm!3i367041902!3m9!2sfr!3sUS!5e18!12m1!1e47!12m3!1e37!2m1!1ssmartmaps!4e0&amp;token=20581" draggable="false" alt=""></div><div style="position: absolute; left: 19px; top: 139px; transition: opacity 200ms ease-out 0s;"><img style="position: absolute; left: 0px; top: 0px; width: 256px; height: 256px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i16!2i52030!3i28849!4i256!2m3!1e0!2sm!3i367041902!3m9!2sfr!3sUS!5e18!12m1!1e47!12m3!1e37!2m1!1ssmartmaps!4e0&amp;token=73783" draggable="false" alt=""></div><div style="position: absolute; left: -237px; top: -117px; transition: opacity 200ms ease-out 0s;"><img style="position: absolute; left: 0px; top: 0px; width: 256px; height: 256px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i16!2i52029!3i28848!4i256!2m3!1e0!2sm!3i367041902!3m9!2sfr!3sUS!5e18!12m1!1e47!12m3!1e37!2m1!1ssmartmaps!4e0&amp;token=93262" draggable="false" alt=""></div><div style="position: absolute; left: -237px; top: 139px; transition: opacity 200ms ease-out 0s;"><img style="position: absolute; left: 0px; top: 0px; width: 256px; height: 256px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i16!2i52029!3i28849!4i256!2m3!1e0!2sm!3i367041902!3m9!2sfr!3sUS!5e18!12m1!1e47!12m3!1e37!2m1!1ssmartmaps!4e0&amp;token=15393" draggable="false" alt=""></div><div style="position: absolute; left: 275px; top: -117px; transition: opacity 200ms ease-out 0s;"><img style="position: absolute; left: 0px; top: 0px; width: 256px; height: 256px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i16!2i52031!3i28848!4i256!2m3!1e0!2sm!3i367041878!3m9!2sfr!3sUS!5e18!12m1!1e47!12m3!1e37!2m1!1ssmartmaps!4e0&amp;token=114909" draggable="false" alt=""></div><div style="position: absolute; left: 275px; top: 139px; transition: opacity 200ms ease-out 0s;"><img style="position: absolute; left: 0px; top: 0px; width: 256px; height: 256px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i16!2i52031!3i28849!4i256!2m3!1e0!2sm!3i367042082!3m9!2sfr!3sUS!5e18!12m1!1e47!12m3!1e37!2m1!1ssmartmaps!4e0&amp;token=46065" draggable="false" alt=""></div></div></div></div><div style="position: absolute; left: 0px; top: 0px; z-index: 2; width: 100%; height: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 3; width: 100%; height: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 4; width: 100%;"><div style="position: absolute; left: 0px; top: 0px; z-index: 104; width: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 105; width: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 106; width: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 107; width: 100%;"></div></div></div><div style="margin-left: 5px; margin-right: 5px; z-index: 1000000; position: absolute; left: 0px; bottom: 0px;"><a style="position: static; overflow: visible; float: none; display: inline;" target="_blank" href="https://maps.google.com/maps?ll=21.037643,105.813854&amp;z=16&amp;t=m&amp;hl=fr&amp;gl=US&amp;mapclient=apiv3" title="Cliquez ici pour afficher cette zone sur Google&nbsp;Maps"><div style="width: 66px; height: 26px; cursor: pointer;"><img style="position: absolute; left: 0px; top: 0px; width: 66px; height: 26px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px;" src="https://maps.gstatic.com/mapfiles/api-3/images/google4.png" draggable="false"></div></a></div><div style="background-color: white; padding: 15px 21px; border: 1px solid rgb(171, 171, 171); font-family: Roboto,Arial,sans-serif; color: rgb(34, 34, 34); box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.2); z-index: 10000002; display: none; width: 256px; height: 148px; position: absolute; left: 80px; top: 85px;"><div style="padding: 0px 0px 10px; font-size: 16px;">Données cartographiques</div><div style="font-size: 13px;">Données cartographiques ©2016 Google</div><div style="width: 13px; height: 13px; overflow: hidden; position: absolute; opacity: 0.7; right: 12px; top: 12px; z-index: 10000; cursor: pointer;"><img style="position: absolute; left: -2px; top: -336px; width: 59px; height: 492px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;" src="https://maps.gstatic.com/mapfiles/api-3/images/mapcnt6.png" draggable="false"></div></div><div class="gmnoprint" style="z-index: 1000001; position: absolute; right: 278px; bottom: 0px; width: 126px;"><div draggable="false" style="-moz-user-select: none; height: 14px; line-height: 14px;" class="gm-style-cc"><div style="opacity: 0.7; width: 100%; height: 100%; position: absolute;"><div style="width: 1px;"></div><div style="background-color: rgb(245, 245, 245); width: auto; height: 100%; margin-left: 1px;"></div></div><div style="position: relative; padding-right: 6px; padding-left: 6px; font-family: Roboto,Arial,sans-serif; font-size: 10px; color: rgb(68, 68, 68); white-space: nowrap; direction: ltr; text-align: right; vertical-align: middle; display: inline-block;"><a style="color: rgb(68, 68, 68); text-decoration: none; cursor: pointer;">Données cartographiques</a><span style="display: none;">Données cartographiques ©2016 Google</span></div></div></div><div class="gmnoscreen" style="position: absolute; right: 0px; bottom: 0px;"><div style="font-family: Roboto,Arial,sans-serif; font-size: 11px; color: rgb(68, 68, 68); direction: ltr; text-align: right; background-color: rgb(245, 245, 245);">Données cartographiques ©2016 Google</div></div><div class="gmnoprint gm-style-cc" style="z-index: 1000001; -moz-user-select: none; height: 14px; line-height: 14px; position: absolute; right: 165px; bottom: 0px;" draggable="false"><div style="opacity: 0.7; width: 100%; height: 100%; position: absolute;"><div style="width: 1px;"></div><div style="background-color: rgb(245, 245, 245); width: auto; height: 100%; margin-left: 1px;"></div></div><div style="position: relative; padding-right: 6px; padding-left: 6px; font-family: Roboto,Arial,sans-serif; font-size: 10px; color: rgb(68, 68, 68); white-space: nowrap; direction: ltr; text-align: right; vertical-align: middle; display: inline-block;"><a style="text-decoration: none; cursor: pointer; color: rgb(68, 68, 68);" href="https://www.google.com/intl/fr_US/help/terms_maps.html" target="_blank">Conditions d'utilisation</a></div></div><div style="width: 25px; height: 25px; overflow: hidden; display: none; margin: 10px 14px; position: absolute; top: 0px; right: 0px;"><img style="position: absolute; left: -52px; top: -86px; width: 164px; height: 175px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px;" src="https://maps.gstatic.com/mapfiles/api-3/images/sv9.png" draggable="false" class="gm-fullscreen-control"></div><div draggable="false" style="-moz-user-select: none; height: 14px; line-height: 14px; position: absolute; right: 0px; bottom: 0px;" class="gm-style-cc"><div style="opacity: 0.7; width: 100%; height: 100%; position: absolute;"><div style="width: 1px;"></div><div style="background-color: rgb(245, 245, 245); width: auto; height: 100%; margin-left: 1px;"></div></div><div style="position: relative; padding-right: 6px; padding-left: 6px; font-family: Roboto,Arial,sans-serif; font-size: 10px; color: rgb(68, 68, 68); white-space: nowrap; direction: ltr; text-align: right; vertical-align: middle; display: inline-block;"><a target="_new" title="Signaler à Google une erreur dans la carte routière ou les images" style="font-family: Roboto,Arial,sans-serif; font-size: 10px; color: rgb(68, 68, 68); text-decoration: none; position: relative;" href="https://www.google.com/maps/@21.0376433,105.8138537,16z/data=!10m1!1e1!12b1?source=apiv3&amp;rapsrc=apiv3">Signaler une erreur cartographique</a></div></div><div class="gmnoprint gm-bundled-control gm-bundled-control-on-bottom" style="margin: 10px; -moz-user-select: none; position: absolute; bottom: 107px; right: 28px;" draggable="false" controlwidth="28" controlheight="93"><div class="gmnoprint" style="position: absolute; left: 0px; top: 38px;" controlwidth="28" controlheight="55"><div draggable="false" style="-moz-user-select: none; box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.3); border-radius: 2px; cursor: pointer; background-color: rgb(255, 255, 255); width: 28px; height: 55px;"><div title="Zoom avant" style="position: relative; width: 28px; height: 27px; left: 0px; top: 0px;"><div style="overflow: hidden; position: absolute; width: 15px; height: 15px; left: 7px; top: 6px;"><img style="position: absolute; left: 0px; top: 0px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none; width: 120px; height: 54px;" src="https://maps.gstatic.com/mapfiles/api-3/images/tmapctrl.png" draggable="false"></div></div><div style="position: relative; overflow: hidden; width: 67%; height: 1px; left: 16%; background-color: rgb(230, 230, 230); top: 0px;"></div><div title="Zoom arrière" style="position: relative; width: 28px; height: 27px; left: 0px; top: 0px;"><div style="overflow: hidden; position: absolute; width: 15px; height: 15px; left: 7px; top: 6px;"><img style="position: absolute; left: 0px; top: -15px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none; width: 120px; height: 54px;" src="https://maps.gstatic.com/mapfiles/api-3/images/tmapctrl.png" draggable="false"></div></div></div></div><div class="gm-svpc" style="background-color: rgb(255, 255, 255); box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.3); border-radius: 2px; width: 28px; height: 28px; cursor: url(&quot;https://maps.gstatic.com/mapfiles/openhand_8_8.cur&quot;), default; position: absolute; left: 0px; top: 0px;" controlwidth="28" controlheight="28"><div style="position: absolute; left: 1px; top: 1px;"></div><div style="position: absolute; left: 1px; top: 1px;"><div style="width: 26px; height: 26px; overflow: hidden; position: absolute; left: 0px; top: 0px;" aria-label="Contrôle de Pegman dans Street View"><img style="position: absolute; left: -147px; top: -26px; width: 215px; height: 835px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;" src="https://maps.gstatic.com/mapfiles/api-3/images/cb_scout5.png" draggable="false"></div><div style="width: 26px; height: 26px; overflow: hidden; position: absolute; left: 0px; top: 0px; visibility: hidden;" aria-label="Pegman est au-dessus de la carte."><img style="position: absolute; left: -147px; top: -52px; width: 215px; height: 835px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;" src="https://maps.gstatic.com/mapfiles/api-3/images/cb_scout5.png" draggable="false"></div><div style="width: 26px; height: 26px; overflow: hidden; position: absolute; left: 0px; top: 0px; visibility: hidden;" aria-label="Contrôle de Pegman dans Street View"><img style="position: absolute; left: -147px; top: -78px; width: 215px; height: 835px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;" src="https://maps.gstatic.com/mapfiles/api-3/images/cb_scout5.png" draggable="false"></div></div></div><div class="gmnoprint" controlwidth="28" controlheight="0" style="display: none; position: absolute;"><div style="width: 28px; height: 28px; overflow: hidden; position: absolute; border-radius: 2px; box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.3); cursor: pointer; background-color: rgb(255, 255, 255); display: none;" title="Faire pivoter le plan à 90°"><img style="position: absolute; left: -141px; top: 6px; width: 170px; height: 54px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;" src="https://maps.gstatic.com/mapfiles/api-3/images/tmapctrl4.png" draggable="false"></div><div style="width: 28px; height: 28px; overflow: hidden; position: absolute; border-radius: 2px; box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.3); top: 0px; cursor: pointer; background-color: rgb(255, 255, 255);" class="gm-tilt"><img style="position: absolute; left: -141px; top: -13px; width: 170px; height: 54px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;" src="https://maps.gstatic.com/mapfiles/api-3/images/tmapctrl4.png" draggable="false"></div></div></div><div class="gmnoprint" style="margin: 10px; z-index: 0; position: absolute; cursor: pointer; left: 0px; top: 0px;"><div style="float: left;" class="gm-style-mtc"><div style="direction: ltr; overflow: hidden; text-align: center; position: relative; color: rgb(0, 0, 0); font-family: Roboto,Arial,sans-serif; -moz-user-select: none; font-size: 11px; background-color: rgb(255, 255, 255); padding: 8px; border-bottom-left-radius: 2px; border-top-left-radius: 2px; background-clip: padding-box; box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.3); min-width: 20px; font-weight: 500;" draggable="false" title="Afficher un plan de ville">Plan</div><div style="background-color: white; z-index: -1; padding: 2px; border-bottom-left-radius: 2px; border-bottom-right-radius: 2px; box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.3); position: absolute; left: 0px; top: 33px; text-align: left; display: none;"><div style="color: rgb(0, 0, 0); font-family: Roboto,Arial,sans-serif; -moz-user-select: none; font-size: 11px; background-color: rgb(255, 255, 255); padding: 6px 8px 6px 6px; direction: ltr; text-align: left; white-space: nowrap;" draggable="false" title="Afficher le relief sur la carte"><span role="checkbox" style="box-sizing: border-box; position: relative; line-height: 0; font-size: 0px; margin: 0px 5px 0px 0px; display: inline-block; background-color: rgb(255, 255, 255); border: 1px solid rgb(198, 198, 198); border-radius: 1px; width: 13px; height: 13px; vertical-align: middle;"><div style="position: absolute; left: 1px; top: -2px; width: 13px; height: 11px; overflow: hidden; display: none;"><img style="position: absolute; left: -52px; top: -44px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none; width: 68px; height: 67px;" src="https://maps.gstatic.com/mapfiles/mv/imgs8.png" draggable="false"></div></span><label style="vertical-align: middle; cursor: pointer;">Relief</label></div></div></div><div style="float: left;" class="gm-style-mtc"><div style="direction: ltr; overflow: hidden; text-align: center; position: relative; color: rgb(86, 86, 86); font-family: Roboto,Arial,sans-serif; -moz-user-select: none; font-size: 11px; background-color: rgb(255, 255, 255); padding: 8px; border-bottom-right-radius: 2px; border-top-right-radius: 2px; background-clip: padding-box; box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.3); border-left: 0px none; min-width: 37px;" draggable="false" title="Afficher les images satellite">Satellite</div><div style="background-color: white; z-index: -1; padding: 2px; border-bottom-left-radius: 2px; border-bottom-right-radius: 2px; box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.3); position: absolute; right: 0px; top: 33px; text-align: left; display: none;"><div style="color: rgb(0, 0, 0); font-family: Roboto,Arial,sans-serif; -moz-user-select: none; font-size: 11px; background-color: rgb(255, 255, 255); padding: 6px 8px 6px 6px; direction: ltr; text-align: left; white-space: nowrap;" draggable="false" title="Afficher les images satellite avec le nom des rues"><span role="checkbox" style="box-sizing: border-box; position: relative; line-height: 0; font-size: 0px; margin: 0px 5px 0px 0px; display: inline-block; background-color: rgb(255, 255, 255); border: 1px solid rgb(198, 198, 198); border-radius: 1px; width: 13px; height: 13px; vertical-align: middle;"><div style="position: absolute; left: 1px; top: -2px; width: 13px; height: 11px; overflow: hidden;"><img style="position: absolute; left: -52px; top: -44px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none; width: 68px; height: 67px;" src="https://maps.gstatic.com/mapfiles/mv/imgs8.png" draggable="false"></div></span><label style="vertical-align: middle; cursor: pointer;">Légendes</label></div></div></div></div></div></div></div>
+					<div id="marker-tooltip" style="position: absolute;">&nbsp;</div>
+				</div>				
+			</section>
+		</div>
+	</div>
+</div>
+<!-- footer -->
+<footer class="footer">
+	<div class="footer-middle">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 col-sm-4">
+					<h4>Liên hệ</h4>
+					<div class="contacts-info">
+						<address>
+							<i class="add-icon">&nbsp;</i>Tòa nhà 442 - Đội Cấn - Ba Đình - Hà Nội
+						</address>
+						<div class="phone-footer"><i class="phone-icon">&nbsp;</i>0987357669 - (04).2362.9876</div>
+						<div class="email-footer"><i class="email-icon">&nbsp;</i> <a href="mailto:support@magikcommerce.com"> hotro.natteam@gmail.com</a> </div>
+					</div>
+				</div>
+				<div class="col-md-5 col-sm-4">
+					<h4>Đăng ký du học</h4>					
+              <form class="form-horizonta">
+                  <input class="form-control" placeholder="E-mail" name="email">
+                  <input class="btn-default dark" value="Đăng ký nhận tin" type="submit">
+              </form>
+					<div class="social">
+						<ul>
+							<li class="fb"><a href="https://www.facebook.com/facebook"></a></li>
+							<li class="tw"><a href="#"></a></li>
+							<li class="googleplus"><a href="#"></a></li>
+							<li class="rss"><a href="#"></a></li>
+							<li class="pintrest"><a href="#"></a></li>
+						</ul>
+					</div>					
+				</div>
+				<div class="col-md-3 col-sm-4">
+					<h4>Về chúng tôi</h4>
+					<ul class="links">
+						
+						<li><a href="/">Trang chủ</a></li>
+						
+						<li><a href="/gioi-thieu">Giới thiệu</a></li>
+						
+						<li><a href="/tin-tuc">Tin tức du học</a></li>
+						
+						<li><a href="/dang-ky">Đăng ký</a></li>
+						
+						<li><a href="/lien-he">Liên hệ</a></li>
+						
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer-bottom">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-5 col-xs-12 coppyright">© Bản quyền thuộc về NAT Theme | Cung cấp bởi <a href="https://bizweb.vn" target="blank">Bizweb</a></div>
+				<div class="col-sm-7 col-xs-12 company-links">
+					<ul class="links">
+						
+						<li><a href="/">Trang chủ</a></li>
+						
+						<li><a href="/gioi-thieu">Giới thiệu</a></li>
+						
+						<li><a href="/tin-tuc">Tin tức du học</a></li>
+						
+						<li><a href="/dang-ky">Đăng ký</a></li>
+						
+						<li><a href="/lien-he">Liên hệ</a></li>
+						
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+</body>
+<!-- Jquery -->
+<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+  <!-- mightySlider requires jQuery 1.7+  -->
+    <!-- If you already have jQuery on your page, you shouldn't include it second time. -->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <!-- Uses the built in easing capabilities added In jQuery 1.1 to offer multiple easing options -->
+    <script type="text/javascript" src="assets/js/jquery.easing-1.3.pack.js"></script>
+    <!-- Mobile touch events for jQuery -->
+    <script type="text/javascript" src="assets/js/jquery.mobile.just-touch.js"></script>
+    <!-- mightySlider captions animation engine -->
+    <script type="text/javascript" src="mightyslider/src/js/tweenlite.js"></script>
+    <!-- Main slider JS script file -->
+    <script type="text/javascript" src="mightyslider/src/js/mightyslider.min.js"></script>
+</html>
+<script type="text/javascript">
+    jQuery(document).ready(function($) {
+        (function(){
+            // Global slider's DOM elements
+            var $example = $('#example'),
+                $frame = $('.frame', $example);
+
+            // Calling mightySlider via jQuery proxy
+            $frame.mightySlider({
+                speed: 1000,
+                easing: 'easeOutExpo',
+                viewport: 'fill',
+                
+                // Navigation options
+                navigation: {
+                    slideSize: '100%',
+                    keyboardNavBy: 'slides'
+                },
+
+                // Dragging options
+                dragging: {
+                    swingSpeed:    0.1
+                },
+
+                // Pages options
+                pages: {
+                    activateOn: 'click'
+                },
+
+                // Commands options
+                commands: {
+                    pages: 1,
+                    buttons: 1
+                }
+            });
+        })();
+    });
+</script>
